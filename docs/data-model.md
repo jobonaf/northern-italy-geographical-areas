@@ -2,7 +2,7 @@
 
 ## Identificativi
 
-`territory_id` usa il formato `ITN-NNN`. Gli identificativi sono stabili e non dipendono dal nome o dalla regione amministrativa. Se un nome cambia, l'ID resta invariato; se due record vengono unificati, l'ID dismesso va documentato nel changelog.
+`territory_id` è uno slug testuale ASCII derivato dal nome canonico al momento della creazione (per esempio `langhe`, `val-d-ossola`, `bisiacaria`). Si usa il minuscolo, si eliminano i segni diacritici e si separano le parole con trattini; apostrofi e punteggiatura non sono conservati. L'ID è stabile e non dipende dalla regione amministrativa. Se il nome visualizzato cambia, l'ID resta invariato. Se due record vengono unificati, l'ID dismesso va documentato nel changelog e non può essere riutilizzato. In caso di collisione si aggiunge un qualificatore testuale significativo, non un numero progressivo. La migrazione iniziale da `ITN-NNN` è documentata in `docs/id-migration.csv`.
 
 ## Stati di delimitazione
 

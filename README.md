@@ -28,14 +28,15 @@ Il repository si trova nella **fase 1: struttura e anagrafica**. I 70 record son
 │   ├── territory_municipalities.csv
 │   └── sources.csv
 └── docs/
-    └── data-model.md
+    ├── data-model.md
+    └── id-migration.csv
 ```
 
 ## Tabelle
 
 ### `data/territories.csv`
 
-Una riga per territorio. `territory_id` è un identificativo interno stabile: non codifica confini amministrativi e non va riutilizzato per un altro territorio.
+Una riga per territorio. `territory_id` è uno slug testuale stabile (per esempio `langhe` o `val-d-ossola`): non codifica confini amministrativi e non va riutilizzato per un altro territorio. È derivato dal nome iniziale, ma non viene aggiornato automaticamente quando cambia `name`. La migrazione dagli ID numerici iniziali è documentata in `docs/id-migration.csv`.
 
 - `territory_type`: classificazione descrittiva provvisoria.
 - `macro_area`: raggruppamento editoriale per organizzare il lavoro, non una delimitazione amministrativa.

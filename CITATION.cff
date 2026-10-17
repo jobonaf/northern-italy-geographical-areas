@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite the repository version you used."
+title: "Territori geografici del Nord Italia"
+type: dataset
+version: 0.1.0
+abstract: "Repertorio in costruzione di territori geografici riconoscibili del Nord Italia, con delimitazioni comunali documentate in fase di sviluppo."
