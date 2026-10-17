@@ -7,3 +7,9 @@
 - Documentati nel modello dati: versione dei confini, separazione fonte/risultato, criteri di accettazione.
 - Aggiunto `scripts/validate.py`.
 - Corretto l'albero dei file nel README (`LICENSE`, `docs/id-migration.csv`).
+
+## Fase 2 (in corso)
+
+- Aggiunte a `sources.csv` le colonne `source_class` e `lists_municipalities`.
+- Aggiunto `data/source_assessment.csv`.
+- Catalogate le fonti preliminari per Trentino-Alto Adige (14 territori) e Bisiacaria.

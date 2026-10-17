@@ -1,0 +1,16 @@
+territory_id,reference_unit,match_type,outlook,next_step
+val-venosta,Comunità comprensoriale Val Venosta,exact,defined_official,"Reperire lo statuto della comunità; decidere su Naturno, Parcines e Plaus (caso limite)"
+val-pusteria,Comunità comprensoriale Valle Pusteria (26 comuni),unclear,defined_official,Elenco dei 26 comuni; decidere se includere i comuni del distretto Val Badia
+val-badia,Distretto sociale Val Badia (Comunità Pusteria),unit_larger,defined_official,Elenco dei comuni del distretto o fonte ladina equivalente
+val-gardena,Distretto sociale Val Gardena (Comunità Salto-Sciliar),unit_larger,defined_official,Elenco dei comuni del distretto
+val-passiria,Distretto sociale Passiria (Comunità Burgraviato),unit_larger,defined_official,Elenco dei comuni del distretto
+valle-isarco,Comunità comprensoriale Valle Isarco,exact,defined_official,Elenco dei comuni dallo statuto; decidere se includere la Wipptal
+val-di-non,Comunità della Val di Non,exact,defined_official,Elenco aggiornato dei comuni dopo le fusioni; norma istitutiva
+val-di-sole,Comunità della Valle di Sole,exact,defined_official,Elenco aggiornato dei comuni dopo le fusioni; norma istitutiva
+val-di-fiemme,Comunità territoriale della Val di Fiemme,exact,defined_official,Elenco aggiornato dei comuni dopo le fusioni; norma istitutiva
+val-di-fassa,Comun General de Fascia,exact,defined_official,Elenco dei comuni dallo statuto
+giudicarie,Comunità delle Giudicarie,exact,defined_official,Elenco aggiornato dei comuni dopo le fusioni; verificare se la Giudicarie storica coincide con la comunità
+vallagarina,Comunità della Vallagarina,exact,defined_official,Elenco aggiornato dei comuni dopo le fusioni
+valsugana,Comunità Valsugana e Tesino; Comunità Alta Valsugana e Bersntol,multiple,defined_approximate,Decidere quali comunità o comuni includere; trovare una fonte che definisca la Valsugana
+val-d-adige,Territorio Val d'Adige (ente di riferimento: Trento),unclear,defined_approximate,Decidere se il territorio è l'unità amministrativa o la valle storica; gestire la sovrapposizione con Vallagarina
+bisiacaria,nessuna unità amministrativa individuata,unclear,unresolved,Cercare fonti storico-linguistiche o atti istituzionali che delimitino il territorio

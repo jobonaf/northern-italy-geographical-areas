@@ -39,3 +39,7 @@ Ogni delimitazione deve rimandare a uno o più record in `sources.csv`. Per font
 ## Valutazione delle fonti (fase 2)
 
 `sources.csv` include `source_class` (`official`, `institutional`, `institutional_derivative`, `scholarly`, `encyclopedic`, `tourism`, `other`) e `lists_municipalities` (`yes`, `partial`, `no`). Una fonte è adeguata a popolare un territorio (fase 3) solo se appartiene a una classe `official`, `institutional` o `scholarly` e se `lists_municipalities` è `yes` o `partial`. Fonti enciclopediche o turistiche servono a documentare candidati e casi limite, non a definire il perimetro.
+
+### `data/source_assessment.csv`
+
+Valutazione preliminare per territorio, una riga per territorio valutato: `reference_unit` (unità amministrativa o fonte di riferimento), `match_type` (`exact`: coincide con l'unità; `unit_larger`: l'unità è più estesa del territorio; `multiple`: il territorio copre più unità; `unclear`), `outlook` (stato atteso, provvisorio, tra quelli di `status`) e `next_step`. Non modifica `status`: serve a pianificare la fase 3.

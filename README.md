@@ -27,6 +27,7 @@ Il repository si trova nella **fase 1: struttura e anagrafica**. I 70 record son
 │   ├── territories.csv
 │   ├── territory_municipalities.csv
 │   ├── sources.csv
+│   ├── source_assessment.csv
 │   └── boundary_versions.csv
 ├── docs/
 │   ├── data-model.md
@@ -55,6 +56,10 @@ Tabella relazionale: una riga per ogni associazione territorio-comune. I codici 
 ### `data/boundary_versions.csv`
 
 Registro delle versioni dei confini e dei codici comunali ISTAT (data di riferimento, URL, checksum). Ogni riga di `territory_municipalities.csv` rimanda a una versione tramite `boundary_version`.
+
+### `data/source_assessment.csv`
+
+Valutazione preliminare per territorio (unità di riferimento, corrispondenza, esito atteso, passo successivo).
 
 ### `data/sources.csv`
 
