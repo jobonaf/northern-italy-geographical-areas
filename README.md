@@ -21,15 +21,19 @@ Il repository si trova nella **fase 1: struttura e anagrafica**. I 70 record son
 .
 ├── README.md
 ├── CITATION.cff
-├── LICENSE-README.md
+├── LICENSE
 ├── .gitignore
 ├── data/
 │   ├── territories.csv
 │   ├── territory_municipalities.csv
-│   └── sources.csv
-└── docs/
-    ├── data-model.md
-    └── id-migration.csv
+│   ├── sources.csv
+│   └── boundary_versions.csv
+├── docs/
+│   ├── data-model.md
+│   └── id-migration.csv
+├── scripts/
+│   └── validate.py
+└── CHANGELOG.md
 ```
 
 ## Tabelle
@@ -47,6 +51,10 @@ Una riga per territorio. `territory_id` è uno slug testuale stabile (per esempi
 ### `data/territory_municipalities.csv`
 
 Tabella relazionale: una riga per ogni associazione territorio-comune. I codici ISTAT saranno aggiunti dopo aver consultato una versione documentata dei confini e dei codici comunali.
+
+### `data/boundary_versions.csv`
+
+Registro delle versioni dei confini e dei codici comunali ISTAT (data di riferimento, URL, checksum). Ogni riga di `territory_municipalities.csv` rimanda a una versione tramite `boundary_version`.
 
 ### `data/sources.csv`
 
