@@ -42,4 +42,4 @@ Ogni delimitazione deve rimandare a uno o più record in `sources.csv`. Per font
 
 ### `data/source_assessment.csv`
 
-Valutazione preliminare per territorio, una riga per territorio valutato: `reference_unit` (unità amministrativa o fonte di riferimento), `match_type` (`exact`: coincide con l'unità; `unit_larger`: l'unità è più estesa del territorio; `multiple`: il territorio copre più unità; `unclear`), `outlook` (stato atteso, provvisorio, tra quelli di `status`) e `next_step`. Non modifica `status`: serve a pianificare la fase 3.
+Valutazione preliminare per territorio, una riga per territorio valutato: `reference_unit` (unità amministrativa o fonte di riferimento), `match_type` (`exact`: coincide con l'unità; `unit_larger`: l'unità è più estesa del territorio; `unit_smaller`: l'unità è meno estesa; `multiple`: il territorio copre più unità; `unclear`), `outlook` (stato atteso, provvisorio, tra quelli di `status`) e `next_step`. Non modifica `status`: serve a pianificare la fase 3.

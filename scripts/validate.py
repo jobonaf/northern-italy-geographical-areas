@@ -44,7 +44,7 @@ for r in read("territory_municipalities.csv"):
 for r in read("sources.csv"):
     if r["territory_id"] not in ids: err.append(f"fonte con territory_id sconosciuto: {r['territory_id']}")
 
-M = {"exact", "unit_larger", "multiple", "unclear"}
+M = {"exact", "unit_larger", "unit_smaller", "multiple", "unclear"}
 for r in read("source_assessment.csv"):
     if r["territory_id"] not in ids: err.append(f"valutazione con territory_id sconosciuto: {r['territory_id']}")
     if r["match_type"] not in M: err.append(f"match_type non valido: {r['match_type']}")
