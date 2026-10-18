@@ -1,71 +1,71 @@
-territory_id,name,territory_type,macro_area,status,boundary_method,notes
-langhe,Langhe,area collinare e storico-culturale,Piemonte e Valle d'Aosta,pending,,
-monferrato,Monferrato,area collinare e storico-culturale,Piemonte e Valle d'Aosta,pending,,
-roero,Roero,area collinare e storico-culturale,Piemonte e Valle d'Aosta,pending,,
-canavese,Canavese,territorio storico-geografico,Piemonte e Valle d'Aosta,pending,,
-valsesia,Valsesia,valle e territorio alpino,Piemonte e Valle d'Aosta,pending,,
-val-d-ossola,Val d'Ossola,valle e territorio alpino,Piemonte e Valle d'Aosta,pending,,
-valli-di-lanzo,Valli di Lanzo,insieme di valli alpine,Piemonte e Valle d'Aosta,pending,,
-val-di-susa,Val di Susa,valle alpina,Piemonte e Valle d'Aosta,pending,,
-valli-valdesi,Valli valdesi,insieme di valli e territorio storico-culturale,Piemonte e Valle d'Aosta,pending,,
-valli-occitane,Valli occitane,insieme di valli e territorio linguistico-culturale,Piemonte e Valle d'Aosta,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-biellese,Biellese,territorio storico-geografico,Piemonte e Valle d'Aosta,pending,,
-cusio,Cusio,territorio storico-geografico,Piemonte e Valle d'Aosta,pending,,
-vergante,Vergante,territorio storico-geografico,Piemonte e Valle d'Aosta,pending,,
-acquese,Acquese,territorio storico-geografico,Piemonte e Valle d'Aosta,pending,,
-gran-paradiso,Gran Paradiso,area montana transregionale,Piemonte e Valle d'Aosta,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-valle-d-aosta,Valle d'Aosta,regione geografica e storica,Piemonte e Valle d'Aosta,pending,,
-valtellina,Valtellina,valle e territorio alpino,Lombardia,pending,,
-valchiavenna,Valchiavenna,valle e territorio alpino,Lombardia,pending,,
-valcamonica,Valcamonica,valle e territorio alpino,Lombardia,pending,,
-val-seriana,Val Seriana,valle alpina,Lombardia,pending,,
-val-brembana,Val Brembana,valle alpina,Lombardia,pending,,
-valsassina,Valsassina,valle alpina,Lombardia,pending,,
-brianza,Brianza,territorio storico-geografico,Lombardia,pending,,
-franciacorta,Franciacorta,area storico-culturale e vitivinicola,Lombardia,pending,,
-oltrepo-pavese,Oltrepò Pavese,territorio storico-geografico e vitivinicolo,Lombardia,pending,,
-lomellina,Lomellina,territorio storico-geografico,Lombardia,pending,,
-val-trompia,Val Trompia,valle alpina,Lombardia,pending,,
-val-sabbia,Val Sabbia,valle e territorio prealpino,Lombardia,pending,,
-val-venosta,Val Venosta,valle alpina,Trentino-Alto Adige,pending,,Caso test: valutare il perimetro della Comunità comprensoriale come riferimento operativo.
-val-pusteria,Val Pusteria,valle alpina,Trentino-Alto Adige,pending,,
-val-gardena,Val Gardena,valle alpina,Trentino-Alto Adige,pending,,
-val-badia,Val Badia,valle alpina,Trentino-Alto Adige,pending,,
-val-passiria,Val Passiria,valle alpina,Trentino-Alto Adige,pending,,
-valle-isarco,Valle Isarco,valle alpina,Trentino-Alto Adige,pending,,
-val-di-non,Val di Non,valle e territorio alpino,Trentino-Alto Adige,pending,,
-val-di-sole,Val di Sole,valle alpina,Trentino-Alto Adige,pending,,
-val-di-fiemme,Val di Fiemme,valle alpina,Trentino-Alto Adige,pending,,
-valsugana,Valsugana,valle e territorio alpino,Trentino-Alto Adige,pending,,
-giudicarie,Giudicarie,insieme di valli e territorio alpino,Trentino-Alto Adige,pending,,
-vallagarina,Vallagarina,valle e territorio geografico,Trentino-Alto Adige,pending,,
-val-di-fassa,Val di Fassa,valle alpina e territorio ladino,Trentino-Alto Adige,pending,,
-val-d-adige,Val d'Adige,valle fluviale e territorio geografico,Trentino-Alto Adige,pending,,
-dolomiti,Dolomiti,area montana transregionale,Veneto,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-cadore,Cadore,territorio storico-geografico alpino,Veneto,pending,,
-ampezzano,Ampezzano,territorio storico-geografico alpino,Veneto,pending,,
-comelico,Comelico,territorio storico-geografico alpino,Veneto,pending,,
-agordino,Agordino,territorio storico-geografico alpino,Veneto,pending,,
-valbelluna,Valbelluna,valle e territorio geografico,Veneto,pending,,
-altopiano-di-asiago,Altopiano di Asiago,altopiano e territorio storico-geografico,Veneto,pending,,
-lessinia,Lessinia,altopiano e territorio montano,Veneto,pending,,
-colli-euganei,Colli Euganei,area collinare,Veneto,pending,,
-colli-berici,Colli Berici,area collinare,Veneto,pending,,
-riviera-del-brenta,Riviera del Brenta,territorio fluviale e storico-geografico,Veneto,pending,,
-polesine,Polesine,territorio storico-geografico di pianura,Veneto,pending,,
-marca-trevigiana,Marca Trevigiana,territorio storico-geografico,Veneto,pending,,
-friuli,Friuli,regione storico-geografica,Friuli-Venezia Giulia,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-carnia,Carnia,territorio storico-geografico alpino,Friuli-Venezia Giulia,pending,,
-val-canale,Val Canale,valle alpina,Friuli-Venezia Giulia,pending,,
-canal-del-ferro,Canal del Ferro,valle e territorio alpino,Friuli-Venezia Giulia,pending,,
-collio,Collio,territorio collinare e vitivinicolo,Friuli-Venezia Giulia,pending,,
-colli-orientali-del-friuli,Colli Orientali del Friuli,territorio collinare e vitivinicolo,Friuli-Venezia Giulia,pending,,
-carso,Carso,altopiano e regione geografica transfrontaliera,Friuli-Venezia Giulia,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-slavia-friulana,Slavia friulana,territorio storico-linguistico,Friuli-Venezia Giulia,pending,,
-bisiacaria,Bisiacaria,territorio storico-linguistico,Friuli-Venezia Giulia,pending,,Caso test: delimitazione storico-linguistica; verificare comuni e casi controversi.
-appennino-emiliano,Appennino emiliano,area montana e appenninica,Emilia-Romagna,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-frignano,Frignano,territorio storico-geografico appenninico,Emilia-Romagna,pending,,
-valsamoggia,Valsamoggia,territorio collinare e storico-geografico,Emilia-Romagna,pending,,
-romagna,Romagna,regione storico-geografica,Emilia-Romagna,pending,,Estensione da verificare nella fase di ricerca delle fonti.
-riviera-romagnola,Riviera romagnola,territorio costiero,Emilia-Romagna,pending,,
-valli-di-comacchio,Valli di Comacchio,area umida e territorio geografico,Emilia-Romagna,pending,,
+territory_id,name,status,notes
+langhe,Langhe,pending,
+monferrato,Monferrato,pending,
+roero,Roero,pending,
+canavese,Canavese,pending,
+valsesia,Valsesia,pending,
+val-d-ossola,Val d'Ossola,pending,
+valli-di-lanzo,Valli di Lanzo,pending,
+val-di-susa,Val di Susa,pending,
+valli-valdesi,Valli valdesi,pending,
+valli-occitane,Valli occitane,pending,Estensione da verificare nella fase di ricerca delle fonti.
+biellese,Biellese,pending,
+cusio,Cusio,pending,
+vergante,Vergante,pending,
+acquese,Acquese,pending,
+gran-paradiso,Gran Paradiso,pending,Estensione da verificare nella fase di ricerca delle fonti.
+valle-d-aosta,Valle d'Aosta,pending,
+valtellina,Valtellina,pending,
+valchiavenna,Valchiavenna,pending,
+valcamonica,Valcamonica,pending,
+val-seriana,Val Seriana,pending,
+val-brembana,Val Brembana,pending,
+valsassina,Valsassina,pending,
+brianza,Brianza,pending,
+franciacorta,Franciacorta,pending,
+oltrepo-pavese,Oltrepò Pavese,pending,
+lomellina,Lomellina,pending,
+val-trompia,Val Trompia,pending,
+val-sabbia,Val Sabbia,pending,
+val-venosta,Val Venosta,pending,"Caso test: perimetro della Comunità comprensoriale come riferimento operativo. Caso limite: Naturno, Parcines e Plaus (Burgraviato)."
+val-pusteria,Val Pusteria,pending,Comunità comprensoriale Valle Pusteria (26 comuni secondo la comunità): cercare l'elenco; decidere se includere i comuni della Val Badia.
+val-gardena,Val Gardena,pending,Distretto sociale Val Gardena della Comunità Salto-Sciliar: cercare l'elenco dei comuni.
+val-badia,Val Badia,pending,Distretto sociale Val Badia della Comunità Pusteria: cercare l'elenco dei comuni.
+val-passiria,Val Passiria,pending,Distretto sociale Passiria della Comunità Burgraviato: cercare l'elenco dei comuni.
+valle-isarco,Valle Isarco,pending,Comunità comprensoriale Valle Isarco (distretti di Bressanone e Chiusa): cercare l'elenco dallo statuto; decidere se includere la Wipptal.
+val-di-non,Val di Non,pending,
+val-di-sole,Val di Sole,pending,
+val-di-fiemme,Val di Fiemme,pending,
+valsugana,Valsugana,pending,Divisa tra la Comunità Valsugana e Tesino e la Comunità Alta Valsugana e Bersntol: decidere il perimetro e cercare una fonte che lo definisca.
+giudicarie,Giudicarie,pending,
+vallagarina,Vallagarina,pending,
+val-di-fassa,Val di Fassa,pending,Corrisponde al Comun General de Fascia: cercare l'elenco dei comuni dallo statuto.
+val-d-adige,Val d'Adige,pending,Territorio Val d'Adige (ente di riferimento: Trento): decidere se è l'unità amministrativa o la valle storica; si sovrappone alla Vallagarina.
+dolomiti,Dolomiti,pending,"Bene UNESCO (nove sistemi, cinque province): acquisire lo strato GIS UNESCO (core e buffer)."
+cadore,Cadore,pending,
+ampezzano,Ampezzano,pending,
+comelico,Comelico,pending,
+agordino,Agordino,pending,
+valbelluna,Valbelluna,pending,"Interessa le Unioni montane Valbelluna, Bellunese e Feltrina; Borgo Valbelluna nasce da fusione: scegliere l'accezione e cercare l'elenco."
+altopiano-di-asiago,Altopiano di Asiago,pending,
+lessinia,Lessinia,pending,
+colli-euganei,Colli Euganei,pending,
+colli-berici,Colli Berici,pending,
+riviera-del-brenta,Riviera del Brenta,pending,
+polesine,Polesine,pending,
+marca-trevigiana,Marca Trevigiana,pending,Provincia di Treviso (uso attuale) o marca medievale (include Belluno e Feltre): scegliere l'accezione.
+friuli,Friuli,pending,Delimitazione linguistica L.R. 29/2007: decidere se coincide con il Friuli del repertorio.
+carnia,Carnia,pending,Comunità di montagna della Carnia (28 comuni secondo la Regione): cercare l'elenco dallo statuto; distinguere dall'area interna Alta Carnia.
+val-canale,Val Canale,pending,
+canal-del-ferro,Canal del Ferro,pending,
+collio,Collio,pending,
+colli-orientali-del-friuli,Colli Orientali del Friuli,pending,
+carso,Carso,pending,"Tre definizioni diverse (GAL Carso, Carso Giuliano, Carso Isonzo Adriatico): scegliere un criterio unico."
+slavia-friulana,Slavia friulana,pending,"Valli del Natisone, del Torre e di Resia; Comunità di montagna Natisone e Torre e ambito di tutela L. 38/2001: cercare l'elenco dei comuni; decidere su Resia."
+bisiacaria,Bisiacaria,pending,Caso test: delimitazione storico-linguistica. Nessuna unità amministrativa né fonte con elenco trovata: cercare fonti storico-linguistiche o atti istituzionali.
+appennino-emiliano,Appennino emiliano,pending,L'area interna SNAI è più piccola del territorio: decidere il perimetro.
+frignano,Frignano,pending,
+valsamoggia,Valsamoggia,pending,
+romagna,Romagna,pending,La Destinazione turistica Romagna include la provincia di Ferrara e non è adatta: cercare fonti storico-geografiche.
+riviera-romagnola,Riviera romagnola,pending,
+valli-di-comacchio,Valli di Comacchio,pending,

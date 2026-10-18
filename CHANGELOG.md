@@ -1,15 +1,10 @@
 # Changelog
 
-## Non rilasciato — fase 1 (struttura e anagrafica)
+## Non rilasciato
 
-- Identificativi `ITN-NNN` sostituiti da slug testuali stabili; mappa in `docs/id-migration.csv`. Nessun ID dismesso o riutilizzato.
-- Aggiunti `data/boundary_versions.csv` e le colonne `boundary_version` e `source_id` in `territory_municipalities.csv`.
-- Documentati nel modello dati: versione dei confini, separazione fonte/risultato, criteri di accettazione.
-- Aggiunto `scripts/validate.py`.
-- Corretto l'albero dei file nel README (`LICENSE`, `docs/id-migration.csv`).
-
-## Fase 2 (in corso)
-
-- Aggiunte a `sources.csv` le colonne `source_class` e `lists_municipalities`.
-- Aggiunto `data/source_assessment.csv`.
-- Catalogate le fonti preliminari per Trentino-Alto Adige (14 territori), Friuli-Venezia Giulia (9 territori), Emilia-Romagna (6 territori) e Veneto (13 territori).
+- Modello dati semplificato a tre tabelle: `territories.csv` (`territory_id`, `name`, `status`, `notes`), `sources.csv` e `territory_municipalities.csv`.
+- `status` ridotto a `pending`, `defined`, `unresolved`.
+- Eliminati `territory_type`, `macro_area`, `boundary_method`, `source_assessment.csv` e `boundary_versions.csv`; le piste di ricerca dei territori senza fonti sono in `notes`.
+- `sources.csv` registra solo fonti con elenchi di comuni o strati GIS (38 su 72 catalogate); gli ID `S….` non vengono rinumerati.
+- Identificativi `ITN-NNN` sostituiti da slug testuali; mappa in `docs/id-migration.csv`.
+- `scripts/validate.py` riscritto sul nuovo modello.
