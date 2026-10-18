@@ -28,3 +28,16 @@ valsamoggia,Comune di Valsamoggia (L.R. 1/2013),exact,defined_official,Registrar
 romagna,"Destinazione turistica Romagna (province FE, FC, RA, RN)",unclear,defined_approximate,"Cercare fonti storico-geografiche; non usare l'ambito turistico, che include Ferrara"
 riviera-romagnola,nessuna unità ufficiale; definizioni turistiche divergenti,unclear,unresolved,"Candidato alla fase 4 con criterio dei comuni costieri; decidere gli estremi (Cattolica, Cervia o Ravenna, lidi di Comacchio)"
 valli-di-comacchio,"Sito Natura 2000 e Ramsar / stazione del Parco del Delta (Comacchio, Argenta, Ravenna)",multiple,defined_approximate,Reperire il perimetro ufficiale del sito e individuare i comuni intersecati; gestire l'inclusione parziale
+dolomiti,"Bene UNESCO Dolomiti (nove sistemi, cinque province)",multiple,defined_official,Acquisire i perimetri UNESCO (core e buffer); tenere coerenti i comuni con le altre macroaree
+cadore,"Unioni montane Centro Cadore, Comelico, Cadore Longaronese Zoldo, Valle del Boite; Magnifica Comunità di Cadore",multiple,defined_approximate,"Cercare lo statuto della Magnifica Comunità di Cadore; decidere come trattare Comelico e Ampezzano, che hanno voci proprie"
+ampezzano,Comune di Cortina d'Ampezzo e Parco Dolomiti d'Ampezzo,exact,defined_official,Confermare che il territorio coincide con il solo comune; Regole d'Ampezzo e parco hanno confini propri
+comelico,Unione Montana Comelico (già Comelico-Sappada),unclear,defined_official,Elenco dei comuni dallo statuto vigente; verificare l'uscita di Sappada e registrare boundary_version
+agordino,Unione Montana Agordina,exact,defined_official,Elenco dei comuni dallo statuto; verificare fusioni di comuni
+valbelluna,"Unioni montane Valbelluna, Bellunese e Feltrina",multiple,defined_approximate,Scegliere l'accezione di Valbelluna; gestire Borgo Valbelluna (fusione)
+altopiano-di-asiago,Unione Montana Spettabile Reggenza dei Sette Comuni (7 comuni),exact,defined_official,Registrare la fusione di Lusiana e Conco come storia dei confini
+lessinia,"Parco naturale regionale della Lessinia (L.R. 12/1990, 15 comuni in tutto o in parte)",unclear,defined_source,Decidere se la Lessinia coincide con il parco o con la montagna veronese; gestire i comuni inclusi solo in parte
+colli-euganei,Parco regionale dei Colli Euganei (15 comuni),exact,defined_official,Registrare i comuni inclusi solo in parte; elenco confermato dal DPGR 96 del 4/8/2026
+colli-berici,Sito Natura 2000 IT3220037 Colli Berici; nessuna unità amministrativa,unclear,defined_approximate,Reperire il perimetro del sito e individuare i comuni intersecati; verificare le fusioni (Barbarano Mossano)
+riviera-del-brenta,IPA Riviera del Brenta (9 comuni) o 10 comuni con Campolongo Maggiore,unclear,defined_source,Decidere se includere Campolongo Maggiore; cercare una fonte che delimiti l'area storica
+polesine,Provincia di Rovigo,unclear,defined_approximate,"Cercare fonti istituzionali o scientifiche; decidere se il Polesine coincide con la provincia, e trattare le sottoaree Alto, Medio e Basso"
+marca-trevigiana,Provincia di Treviso (uso attuale) o marca medievale,unclear,defined_approximate,Scegliere tra accezione storica e provinciale; la marca storica include Belluno e Feltre

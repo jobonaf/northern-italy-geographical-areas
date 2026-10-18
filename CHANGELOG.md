@@ -12,4 +12,4 @@
 
 - Aggiunte a `sources.csv` le colonne `source_class` e `lists_municipalities`.
 - Aggiunto `data/source_assessment.csv`.
-- Catalogate le fonti preliminari per Trentino-Alto Adige (14 territori) , Friuli-Venezia Giulia (9 territori) ed Emilia-Romagna (6 territori).
+- Catalogate le fonti preliminari per Trentino-Alto Adige (14 territori), Friuli-Venezia Giulia (9 territori), Emilia-Romagna (6 territori) e Veneto (13 territori).
