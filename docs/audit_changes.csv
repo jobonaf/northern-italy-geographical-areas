@@ -1,0 +1,34 @@
+territory_id,action,old_istat_code,new_istat_code,reason
+acquese,replace,006035,006036,Codice corretto per Cartosio
+acquese,replace,006049,006048,Codice corretto per Castelletto d Erro
+acquese,replace,006054,006055,Codice corretto per Cavatore
+acquese,replace,006069,006065,Codice corretto per Denice
+acquese,replace,006083,006084,Codice corretto per Grognardo
+acquese,replace,006118,006119,Codice corretto per Orsara Bormida
+acquese,replace,006136,006134,Codice corretto per Ponti
+acquese,replace,006138,006136,Codice corretto per Ponzone
+acquese,replace,006141,006139,Codice corretto per Prasco
+cusio,replace,103003,103004,Codice corretto per Arola
+cusio,replace,103016,103019,Codice corretto per Casale Corte Cerro
+cusio,replace,103017,103022,Codice corretto per Cesara
+cusio,replace,103040,103043,Codice corretto per Massiola
+cusio,replace,103055,003116,Codice corretto per Pettenasco
+val-d-ossola,add,,103078,"Borgomezzavalle, comprendente le ex Viganella e Seppiana"
+val-di-fassa,replace,022254,022176,Soraga di Fassa al posto di Ville di Fiemme
+val-di-sole,replace,022193,022195,Terzolas al posto di Terragnolo
+valcamonica,add,,017028,"Breno, buco interno individuato sulla mappa"
+vallagarina,replace,022210,022193,Terragnolo al posto di Tenno
+vallagarina,replace,022222,022203,Trambileno al posto di Ton
+valli-valdesi,replace,001197,001198,Pomaretto al posto di Poirino
+valli-valdesi,replace,001204,001205,"Prarostino, riallineamento successivo a Pramollo"
+valli-valdesi,replace,001203,001204,Pramollo al posto di Pralormo
+valli-valdesi,replace,001232,001234,Salza di Pinerolo
+valsesia,replace,002042,002043,Civiasco al posto di Cigliano
+valsesia,replace,002049,002048,Cravagliana al posto di Crescentino
+valsesia,replace,002163,002166,Vocca al posto di Villarboit
+val-d-adige,remove territory,4 associations,,Perimetro amministrativo troppo piccolo e non coerente con il senso geografico comune
+val-di-sole,replace,022047,022054,Cavizzana al posto di Castello-Molina di Fiemme
+vallagarina,replace,022025,022021,Brentonico
+vallagarina,replace,022191,022210,Vallarsa al posto di Tenno
+vallagarina,replace,022200,022222,Villa Lagarina al posto di Ton
+colli-berici,map crosswalk,024070,024071,Nanto nello shapefile 01/01/2026; 024070 identifica Mussolente
