@@ -2,7 +2,7 @@ territory_id,name,status,notes
 langhe,Langhe,pending,La delimitazione UNESCO copre solo componenti selezionate delle Langhe: cercare una fonte per l'intero territorio storico-geografico.
 monferrato,Monferrato,pending,Il sito UNESCO fornisce perimetri GIS ufficiali ma parziali rispetto al Monferrato storico: scegliere l'accezione.
 roero,Roero,pending,"Il Roero è riconosciuto nel sito UNESCO complessivo, ma manca ancora una delimitazione istituzionale autonoma completa."
-canavese,Canavese,pending,Territorio storico più ampio delle singole Unioni montane: ricostruire il perimetro confrontando le forme associative regionali.
+canavese,Canavese,defined,Perimetro inclusivo di Wikipedia adottato e popolato con 129 comuni; codici ISTAT vigenti verificati al 2026.
 valsesia,Valsesia,pending,L'Unione Montana pubblica un elenco nominativo di 26 comuni; verificare la difformità con la pagina di presentazione che ne indica 30.
 val-d-ossola,Val d'Ossola,defined,Perimetro operativo SNAI adottato e popolato con 20 comuni; codici ISTAT vigenti verificati al 2026.
 valli-di-lanzo,Valli di Lanzo,defined,Perimetro operativo SNAI adottato e popolato con 19 comuni; codici ISTAT vigenti verificati al 2026.
