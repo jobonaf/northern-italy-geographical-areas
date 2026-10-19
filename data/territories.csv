@@ -3,17 +3,17 @@ langhe,Langhe,pending,La delimitazione UNESCO copre solo componenti selezionate 
 monferrato,Monferrato,pending,Il sito UNESCO fornisce perimetri GIS ufficiali ma parziali rispetto al Monferrato storico: scegliere l'accezione.
 roero,Roero,pending,"Il Roero è riconosciuto nel sito UNESCO complessivo, ma manca ancora una delimitazione istituzionale autonoma completa."
 canavese,Canavese,defined,Perimetro inclusivo di Wikipedia adottato e popolato con 129 comuni; codici ISTAT vigenti verificati al 2026.
-valsesia,Valsesia,pending,L'Unione Montana pubblica un elenco nominativo di 26 comuni; verificare la difformità con la pagina di presentazione che ne indica 30.
+valsesia,Valsesia,defined,Perimetro operativo adottato e popolato con 26 comuni; codici ISTAT vigenti verificati al 2026.
 val-d-ossola,Val d'Ossola,defined,Perimetro operativo SNAI adottato e popolato con 20 comuni; codici ISTAT vigenti verificati al 2026.
 valli-di-lanzo,Valli di Lanzo,defined,Perimetro operativo SNAI adottato e popolato con 19 comuni; codici ISTAT vigenti verificati al 2026.
 val-di-susa,Val di Susa,pending,Possibile perimetro operativo ottenuto aggregando Alta Valle Susa e Valle Susa; verificare Val Cenischia e comuni di sbocco.
 valli-valdesi,Valli valdesi,defined,Perimetro Wikipedia adottato e popolato con 24 comuni; codici ISTAT vigenti verificati al 2026.
 valli-occitane,Valli occitane,pending,Fonte linguistico-culturale disponibile con le 14 valli e i comuni delimitati ai sensi della L. 482/1999; decidere se adottare questo perimetro o quello strettamente geografico.
-biellese,Biellese,pending,Valutare se adottare la provincia di Biella come perimetro operativo o una definizione storico-geografica diversa.
+biellese,Biellese,defined,Perimetro provinciale operativo adottato e popolato con 74 comuni; codici ISTAT vigenti verificati al 2026.
 cusio,Cusio,defined,Perimetro Wikipedia adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
 vergante,Vergante,pending,Verificare distinzione fra Alto e Basso Vergante e corrispondenza con l'Unione Montana dei Due Laghi.
 acquese,Acquese,defined,Perimetro Wikipedia adottato e popolato con 26 comuni; codici ISTAT vigenti verificati al 2026.
-gran-paradiso,Gran Paradiso,pending,"Il Parco nazionale offre un perimetro ufficiale di 13 comuni; decidere se ""Gran Paradiso"" nel repertorio coincide con l'area protetta."
+gran-paradiso,Gran Paradiso,defined,Perimetro operativo adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
 valle-d-aosta,Valle d'Aosta,defined,Perimetro operativo adottato e popolato con 74 comuni; codici ISTAT vigenti verificati al 2026.
 alta-valtellina,Alta Valtellina,defined,Perimetro operativo SNAI adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
 valchiavenna,Valchiavenna,defined,Perimetro operativo adottato e popolato con 12 comuni; codici ISTAT vigenti verificati al 2026.
@@ -34,11 +34,11 @@ val-badia,Val Badia,defined,Perimetro operativo adottato e popolato con 5 comuni
 val-passiria,Val Passiria,defined,Perimetro operativo adottato e popolato con 3 comuni; codici ISTAT vigenti verificati al 2026.
 valle-isarco,Valle Isarco,pending,Distinguere la Comunita comprensoriale Valle Isarco dall Alta Val d Isarco (Wipptal) e acquisire l elenco statutario dei comuni.
 val-di-non,Val di Non,pending,
-val-di-sole,Val di Sole,pending,
-val-di-fiemme,Val di Fiemme,pending,
+val-di-sole,Val di Sole,defined,Perimetro della Comunita di valle adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
+val-di-fiemme,Val di Fiemme,defined,Perimetro della Comunita di valle adottato e popolato con 9 comuni; codici ISTAT vigenti verificati al 2026.
 valsugana,Valsugana,pending,Le due Comunita di valle includono anche Bersntol e Tesino: selezionare i soli comuni della Valsugana geografica.
-giudicarie,Giudicarie,pending,
-vallagarina,Vallagarina,pending,
+giudicarie,Giudicarie,defined,Perimetro della Comunita di valle adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
+vallagarina,Vallagarina,defined,Perimetro della Comunita di valle adottato e popolato con 17 comuni; codici ISTAT vigenti verificati al 2026.
 val-di-fassa,Val di Fassa,defined,Perimetro operativo adottato e popolato con 6 comuni; codici ISTAT vigenti verificati al 2026.
 val-d-adige,Val d'Adige,defined,Perimetro operativo adottato e popolato con 4 comuni; codici ISTAT vigenti verificati al 2026.
 dolomiti,Dolomiti,pending,"Il bene UNESCO e seriale e comprende nove sistemi con core e buffer: usare le geometrie ufficiali, non interi comuni."
@@ -47,13 +47,13 @@ ampezzano,Ampezzano,pending,
 comelico,Comelico,pending,
 agordino,Agordino,pending,
 valbelluna,Valbelluna,pending,"La valle geografica supera l Unione Montana Val Belluna: integrare Bellunese, Destra Piave e Feltrino prima di definire il perimetro."
-altopiano-di-asiago,Altopiano di Asiago,pending,
+altopiano-di-asiago,Altopiano di Asiago,defined,Perimetro operativo adottato e popolato con 7 comuni; codici ISTAT vigenti verificati al 2026.
 lessinia,Lessinia,pending,
 colli-euganei,Colli Euganei,pending,
 colli-berici,Colli Berici,defined,Perimetro Wikipedia adottato e popolato con 15 comuni; codici ISTAT vigenti verificati al 2026.
 riviera-del-brenta,Riviera del Brenta,pending,
 polesine,Polesine,pending,
-marca-trevigiana,Marca Trevigiana,pending,La Provincia di Treviso usa Marca Trevigiana per il territorio dei 94 comuni; scegliere questa accezione attuale o quella storica.
+marca-trevigiana,Marca Trevigiana,defined,Perimetro provinciale operativo adottato e popolato con 94 comuni; codici ISTAT vigenti verificati al 2026.
 friuli,Friuli,pending,Delimitazione linguistica L.R. 29/2007: decidere se coincide con il Friuli del repertorio.
 carnia,Carnia,pending,Lo statuto della Comunita di montagna e una fonte primaria per un perimetro operativo; estrarre l elenco vigente dei comuni.
 val-canale,Val Canale,pending,

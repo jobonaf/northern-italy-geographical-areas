@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Controlli di coerenza sulle tabelle in data/. Uso: python3 scripts/validate.py"""
 import csv, re, sys
+from collections import Counter
 from pathlib import Path
 
 D = Path(__file__).resolve().parent.parent / "data"
@@ -13,10 +14,11 @@ def read(name, cols):
         reader = csv.DictReader(f)
         if reader.fieldnames != cols:
             err.append(f"{name}: intestazione {reader.fieldnames}, attese {cols}")
+            return []
         return list(reader)
 
 def dups(values):
-    return sorted({v for v in values if values.count(v) > 1})
+    return sorted(v for v, n in Counter(values).items() if v and n > 1)
 
 T = read("territories.csv", ["territory_id", "name", "status", "notes"])
 S = read("sources.csv", ["source_id", "territory_id", "title", "url", "source_type", "access_date", "notes"])
@@ -31,8 +33,7 @@ for r in T:
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", r["territory_id"]): err.append(f"id non valido: {r['territory_id']}")
     if not r["name"].strip(): err.append(f"{r['territory_id']}: name vuoto")
     if r["status"] not in STATUS: err.append(f"{r['territory_id']}: status non valido '{r['status']}'")
-    if r["status"] == "defined" and r["territory_id"] not in with_municipalities:
-        err.append(f"{r['territory_id']}: defined senza comuni")
+    if r["status"] == "defined" and r["territory_id"] not in with_municipalities: err.append(f"{r['territory_id']}: defined senza comuni")
 
 source_ids = {r["source_id"] for r in S}
 for r in S:
@@ -51,6 +52,11 @@ for r in M:
     if k in seen: err.append(f"associazione duplicata: {k}")
     seen.add(k)
 
+defined = sum(r["status"] == "defined" for r in T)
+pending = sum(r["status"] == "pending" for r in T)
+unresolved = sum(r["status"] == "unresolved" for r in T)
+progress = (100 * defined / len(T)) if T else 0
 print(f"{len(T)} territori, {len(S)} fonti, {len(M)} associazioni; {len(err)} problemi")
+print(f"Avanzamento: {defined}/{len(T)} territori defined ({progress:.1f}%); {pending} pending; {unresolved} unresolved")
 for e in err: print(" -", e)
 sys.exit(1 if err else 0)
