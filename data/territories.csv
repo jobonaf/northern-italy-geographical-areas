@@ -4,8 +4,8 @@ monferrato,Monferrato,pending,Il sito UNESCO fornisce perimetri GIS ufficiali ma
 roero,Roero,pending,"Il Roero è riconosciuto nel sito UNESCO complessivo, ma manca ancora una delimitazione istituzionale autonoma completa."
 canavese,Canavese,pending,Territorio storico più ampio delle singole Unioni montane: ricostruire il perimetro confrontando le forme associative regionali.
 valsesia,Valsesia,pending,L'Unione Montana pubblica un elenco nominativo di 26 comuni; verificare la difformità con la pagina di presentazione che ne indica 30.
-val-d-ossola,Val d'Ossola,pending,Più Unioni montane coprono le valli ossolane: definire se aggregarle tutte per rappresentare l'Ossola.
-valli-di-lanzo,Valli di Lanzo,pending,Distinguere le tre Valli di Lanzo propriamente dette dalle aree Ceronda e Casternone incluse in forme associative più ampie.
+val-d-ossola,Val d'Ossola,defined,Perimetro operativo SNAI adottato e popolato con 20 comuni; codici ISTAT vigenti verificati al 2026.
+valli-di-lanzo,Valli di Lanzo,defined,Perimetro operativo SNAI adottato e popolato con 19 comuni; codici ISTAT vigenti verificati al 2026.
 val-di-susa,Val di Susa,pending,Possibile perimetro operativo ottenuto aggregando Alta Valle Susa e Valle Susa; verificare Val Cenischia e comuni di sbocco.
 valli-valdesi,Valli valdesi,pending,Territorio storico-culturale non coincidente automaticamente con l'Unione Montana del Pinerolese: cercare una fonte valdese autorevole.
 valli-occitane,Valli occitane,pending,Fonte linguistico-culturale disponibile con le 14 valli e i comuni delimitati ai sensi della L. 482/1999; decidere se adottare questo perimetro o quello strettamente geografico.
@@ -15,17 +15,17 @@ vergante,Vergante,pending,Verificare distinzione fra Alto e Basso Vergante e cor
 acquese,Acquese,pending,Più Unioni coprono parti dell'Acquese; manca un unico perimetro amministrativo coincidente con la regione storico-geografica.
 gran-paradiso,Gran Paradiso,pending,"Il Parco nazionale offre un perimetro ufficiale di 13 comuni; decidere se ""Gran Paradiso"" nel repertorio coincide con l'area protetta."
 valle-d-aosta,Valle d'Aosta,pending,Il territorio coincide con la Regione autonoma Valle d'Aosta (74 comuni). Disponibili elenco istituzionale e limiti amministrativi; mantenere pending finché non sono popolati i codici ISTAT.
-valtellina,Valtellina,pending,Quattro Comunità Montane coprono la Valtellina amministrativa: verificare l'elenco dei comuni e la coincidenza con il territorio storico-geografico.
+alta-valtellina,Alta Valtellina,defined,Perimetro operativo SNAI adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
 valchiavenna,Valchiavenna,pending,L'Area Interna coincide con i 12 comuni della Comunità Montana; possibile perimetro operativo da verificare.
-valcamonica,Valcamonica,pending,"L'Area Interna comprende 35 comuni, la Comunità Montana 41: scegliere esplicitamente il perimetro."
+valcamonica,Valcamonica,defined,Perimetro operativo SNAI adottato e popolato con 35 comuni; codici ISTAT vigenti verificati al 2026.
 val-seriana,Val Seriana,pending,La fonte regionale tratta insieme Valle Seriana e Val di Scalve: separare i due territori e verificare i comuni della sola Val Seriana.
 val-brembana,Val Brembana,pending,La fonte regionale riguarda l'Area Interna congiunta Valle Brembana-Valtellina di Morbegno: isolare il perimetro della Val Brembana.
 valsassina,Valsassina,pending,"La Comunità Montana comprende anche Valvarrone, Val d'Esino e Riviera: non usarne automaticamente l'intero perimetro."
 brianza,Brianza,pending,"La Provincia di Monza e della Brianza ha 55 comuni, ma la Brianza storico-geografica si estende oltre il confine provinciale: scegliere l'accezione."
 franciacorta,Franciacorta,pending,"Il disciplinare DOCG fornisce una delimitazione vitivinicola precisa, comprendente comuni interi e parziali: decidere se adottarla come perimetro operativo."
-oltrepo-pavese,Oltrepò Pavese,pending,"La fonte regionale distingue 75 comuni storico-geografici, 18 comuni della Comunità Montana e un'Area Interna: scegliere il perimetro."
-lomellina,Lomellina,pending,La fonte regionale distingue 57 comuni storico-geografici e 43 comuni dell'Area Interna: scegliere il primo perimetro solo dopo verifica dell'elenco.
-val-trompia,Val Trompia,pending,"L'Area Interna comprende 14 comuni, ma potrebbe non esaurire la valle geografica: verificare i comuni esclusi dal perimetro SNAI."
+oltrepo-pavese,Oltrepò Pavese,defined,Perimetro operativo SNAI adottato e popolato con 18 comuni; codici ISTAT vigenti verificati al 2026.
+lomellina,Lomellina,defined,Perimetro operativo SNAI adottato e popolato con 43 comuni; codici ISTAT vigenti verificati al 2026.
+val-trompia,Val Trompia,defined,Perimetro operativo SNAI adottato e popolato con 14 comuni; codici ISTAT vigenti verificati al 2026.
 val-sabbia,Val Sabbia,pending,"Usare la Comunità Montana come possibile riferimento operativo, verificando statuto, comuni aderenti e coincidenza con la valle geografica."
 val-venosta,Val Venosta,pending,"Caso test: perimetro della Comunità comprensoriale come riferimento operativo. Caso limite: Naturno, Parcines e Plaus (Burgraviato)."
 val-pusteria,Val Pusteria,pending,"La Comunita comprensoriale offre un possibile perimetro operativo di 26 comuni, ma include valli laterali e la Val Badia: verificare lo statuto."
