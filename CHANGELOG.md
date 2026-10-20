@@ -4,35 +4,54 @@
 
 ### Aggiunto
 
-- Fonti per tutti i 70 territori censiti; `sources.csv` contiene attualmente 87 record.
-- Popolamento della fase 3 con 756 associazioni in `territory_municipalities.csv`.
-- Delimitazione di 28 territori tramite perimetri SNAI, elenchi istituzionali o convenzioni secondarie esplicite.
-- `scripts/map_territories.py` per generare una mappa HTML interattiva dei territori `defined` a partire dallo shapefile comunale ISTAT 2026.
-- Layer attivabili per territorio, colori distinti, tooltip, ricerca per comune, schermo intero e visualizzazione delle sovrapposizioni.
+- Copertura portata a 76 territori e 93 fonti.
+- Popolamento della fase 3 portato a 1.410 associazioni territorio-comune.
+- Delimitazione di 62 territori mediante perimetri SNAI, elenchi istituzionali o convenzioni secondarie esplicite.
+- Aggiunti Val Nure, Val Ceno, Val Trebbia, Colline Matildiche, Alta Valmarecchia, Romagna Toscana e Valle del Lamone.
+- Definiti Langhe mediante Bassa Langa, Alta Langa, Langa Astigiana e Langa Monregalese, escludendo il Roero.
+- Monferrato rinominato Alto Monferrato e definito mediante l'area regionale di 41 comuni.
+- Definiti Cadore, Ampezzano, Agordino, Polesine, Val di Susa, Vergante, Valsassina, Valsugana e Valbelluna.
+- `scripts/map_territories.py` genera una mappa HTML interattiva con layer per territorio, colori distinti, tooltip, ricerca per comune, schermo intero e visualizzazione delle sovrapposizioni.
+- Aggiunte a `map_territories.py` le opzioni `--serve` e `--port` per servire la mappa tramite HTTP locale.
 - Sfondi `osm`, `opentopomap` e `none`, senza API key.
-- Raccordo cartografico per fusioni successive alla data dello shapefile, inizialmente per Castegnero Nanto.
 
 ### Modificato
 
-- Il progetto e passato dalla fase 1 alla fase 3: popolamento delle associazioni territorio-comune.
-- `scripts/validate.py` restituisce anche il numero e la percentuale di territori `defined`, oltre ai conteggi `pending` e `unresolved`.
-- `Valtellina` e stata rinominata `Alta Valtellina`, adottando il perimetro SNAI di cinque comuni.
+- Il progetto e nella fase 3: popolamento e revisione delle associazioni territorio-comune.
+- `scripts/validate.py` restituisce numero e percentuale dei territori `defined`, oltre ai conteggi `pending` e `unresolved`.
+- La rappresentazione corrente usa esclusivamente aggregazioni di comuni interi; non vengono versionati layer o GeoJSON dedicati ai territori.
+- Gli script di aggiunta, correzione e migrazione sono considerati strumenti temporanei di lavoro e non vengono inclusi nel repository.
+- `map_territories.py` non applica raccordi o correzioni ad hoc: visualizza esclusivamente i codici presenti nei CSV.
+- Val Pusteria ridotta a 17 comuni, escludendo Val Badia e Valli di Tures-Aurina.
+- Valbelluna ampliata dalla precedente aggregazione amministrativa ristretta a un perimetro geografico operativo di 13 comuni, comprendente Belluno e Feltre.
+- Val d'Adige eliminata dal repertorio.
+- Valtellina rinominata Alta Valtellina, adottando il perimetro SNAI di cinque comuni.
 - Per Val d'Ossola, Valli di Lanzo, Valcamonica, Val Trompia, Lomellina e Oltrepo Pavese sono stati adottati perimetri SNAI.
-- Per Canavese, Cusio, Acquese, Valli valdesi e Colli Berici sono state adottate liste comunali esplicite da Wikipedia.
+- Per Canavese, Cusio, Acquese, Valli valdesi e Colli Berici sono state adottate liste comunali esplicite.
 - Per Biellese e Marca Trevigiana sono stati adottati rispettivamente i perimetri delle province di Biella e Treviso.
-- Aggiornate le liste per fusioni comunali recenti, incluse San Giovanni di Fassa, Lusiana Conco, Alto Sermenza, Cellio con Breia e Ville di Fiemme.
+- Aggiornate le liste per fusioni comunali recenti, incluse San Giovanni di Fassa, Lusiana Conco, Alto Sermenza, Cellio con Breia, Ville di Fiemme, Borgomezzavalle, Treppo Ligosullo e Castegnero Nanto.
+
+### Corretto
+
+- Corretti numerosi abbinamenti tra nomi comunali e codici ISTAT individuati mediante ispezione cartografica.
+- Aggiunti Ceto e Cevo alla Valcamonica; Nadro e rappresentato tramite il comune di Ceto.
+- Rimosso Bondone dalla Vallagarina e ripristinato Brentonico.
+- Corretti i perimetri di Carnia, Slavia friulana e Bisiacaria.
+- Corretti i perimetri di Acquese, Cusio, Val di Sole, Val di Fassa, Vallagarina, Valli valdesi e Valsesia.
 - Corretto il codice ISTAT di Malvicino da `006089` a `006090`.
+- Corretto il codice di Sappada al valore corrente `030189`.
+- Ripristinate le fonti sovrascritte di Canavese, Biellese e Val di Fassa.
 
 ### Modello dati
 
-- Modello semplificato a tre tabelle: `territories.csv`, `sources.csv` e `territory_municipalities.csv`.
-- Stati ridotti a `pending`, `defined` e `unresolved`.
-- Eliminati `territory_type`, `macro_area`, `boundary_method`, `source_assessment.csv` e `boundary_versions.csv`; criteri e questioni aperte sono registrati in `notes`.
-- Identificativi `ITN-NNN` sostituiti da slug testuali; la mappa di migrazione e in `docs/id-migration.csv`.
-- Gli ID delle fonti `SNNNN` non vengono rinumerati.
+- Modello basato su tre tabelle: `territories.csv`, `sources.csv` e `territory_municipalities.csv`.
+- Stati ammessi: `pending`, `defined` e `unresolved`.
+- Gli identificativi territoriali sono slug testuali stabili; gli ID delle fonti `SNNNN` non vengono rinumerati.
+- Le sovrapposizioni e le relazioni di inclusione tra territori sono ammesse.
+- I territori non rappresentabili adeguatamente mediante comuni interi restano `pending`.
 
 ### Da completare
 
-- Popolamento delle liste comunali per i territori ancora `pending` ma definibili mediante comuni.
-- Acquisizione dei layer ufficiali per territori basati su porzioni di comuni, aree protette, denominazioni vitivinicole o beni UNESCO.
-- Valutazione puntuale dei casi ancora ambigui, inclusi Romagna e Appennino emiliano.
+- Definizione dei 14 territori ancora `pending` mediante liste comunali documentate o scelta metodologica esplicita.
+- Verifica cartografica dei nuovi perimetri e controllo sistematico della corrispondenza nome-codice ISTAT.
+- Valutazione puntuale dei casi ancora ambigui, inclusi Romagna, Appennino emiliano, Brianza e Carso.
