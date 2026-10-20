@@ -1119,10 +1119,19 @@ val-venosta,021093,S0002,Silandro
 val-venosta,021094,S0002,Sluderno
 val-venosta,021095,S0002,Stelvio
 val-venosta,021103,S0002,Tubre
+valbelluna,025006,S0109,Belluno
+valbelluna,025011,S0109,Cesiomaggiore
+valbelluna,025021,S0109,Feltre
 valbelluna,025029,S0109,Limana
+valbelluna,025036,S0109,Pedavena
+valbelluna,025040,S0109,Ponte nelle Alpi
+valbelluna,025045,S0109,San Gregorio nelle Alpi
+valbelluna,025048,S0109,Santa Giustina
 valbelluna,025053,S0109,Sedico
+valbelluna,025055,S0109,Seren del Grappa
 valbelluna,025056,S0109,Sospirolo
 valbelluna,025074,S0109,Borgo Valbelluna
+valbelluna,025075,S0109,Setteville
 valcamonica,017006,S0073,
 valcamonica,017007,S0073,
 valcamonica,017016,S0073,
@@ -1134,6 +1143,8 @@ valcamonica,017028,S0073,
 valcamonica,017035,S0073,
 valcamonica,017047,S0073,
 valcamonica,017049,S0073,
+valcamonica,017050,S0073,Ceto
+valcamonica,017051,S0073,Cevo
 valcamonica,017054,S0073,
 valcamonica,017055,S0073,
 valcamonica,017063,S0073,
@@ -1174,7 +1185,7 @@ valchiavenna,014077,S0072,
 vallagarina,022001,S0011,
 vallagarina,022007,S0011,
 vallagarina,022013,S0011,
-vallagarina,022021,S0011,
+vallagarina,022025,S0011,Brentonico
 vallagarina,022035,S0011,
 vallagarina,022098,S0011,
 vallagarina,022123,S0011,

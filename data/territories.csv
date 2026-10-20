@@ -59,7 +59,7 @@ val-seriana,Val Seriana,defined,Perimetro amministrativo della Comunità Montana
 val-trebbia,Val Trebbia,defined,Perimetro adottato: 16 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
 val-trompia,Val Trompia,defined,Perimetro operativo SNAI adottato e popolato con 14 comuni; codici ISTAT vigenti verificati al 2026.
 val-venosta,Val Venosta,defined,Perimetro amministrativo adottato: 13 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
-valbelluna,Valbelluna,defined,Perimetro adottato: 4 comuni; codici da shapefile ISTAT 2026-01-01.
+valbelluna,Valbelluna,defined,"Perimetro geografico operativo di 13 comuni: include Belluno e Feltre e sostituisce il precedente perimetro ristretto dell'Unione Montana Val Belluna. Seren del Grappa è incluso per intero, pur essendo solo parzialmente nella valle."
 valcamonica,Valcamonica,defined,Perimetro operativo SNAI adottato e popolato con 36 comuni; codici ISTAT vigenti verificati al 2026.
 valchiavenna,Valchiavenna,defined,Perimetro operativo adottato e popolato con 12 comuni; codici ISTAT vigenti verificati al 2026.
 vallagarina,Vallagarina,defined,Perimetro della Comunita di valle adottato e popolato con 17 comuni; codici ISTAT vigenti verificati al 2026.
