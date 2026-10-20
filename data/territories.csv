@@ -1,70 +1,77 @@
 territory_id,name,status,notes
-langhe,Langhe,pending,La delimitazione UNESCO copre solo componenti selezionate delle Langhe: cercare una fonte per l'intero territorio storico-geografico.
-monferrato,Monferrato,pending,Il sito UNESCO fornisce perimetri GIS ufficiali ma parziali rispetto al Monferrato storico: scegliere l'accezione.
-roero,Roero,pending,"Il Roero è riconosciuto nel sito UNESCO complessivo, ma manca ancora una delimitazione istituzionale autonoma completa."
-canavese,Canavese,defined,Perimetro inclusivo di Wikipedia adottato e popolato con 129 comuni; codici ISTAT vigenti verificati al 2026.
-valsesia,Valsesia,defined,Perimetro operativo adottato e popolato con 26 comuni; codici ISTAT vigenti verificati al 2026.
-val-d-ossola,Val d'Ossola,defined,Perimetro operativo SNAI adottato e popolato con 21 comuni; codici ISTAT vigenti verificati al 2026.
-valli-di-lanzo,Valli di Lanzo,defined,Perimetro operativo SNAI adottato e popolato con 19 comuni; codici ISTAT vigenti verificati al 2026.
-val-di-susa,Val di Susa,pending,Possibile perimetro operativo ottenuto aggregando Alta Valle Susa e Valle Susa; verificare Val Cenischia e comuni di sbocco.
-valli-valdesi,Valli valdesi,defined,Perimetro Wikipedia adottato e popolato con 24 comuni; codici ISTAT vigenti verificati al 2026.
-valli-occitane,Valli occitane,pending,Fonte linguistico-culturale disponibile con le 14 valli e i comuni delimitati ai sensi della L. 482/1999; decidere se adottare questo perimetro o quello strettamente geografico.
-biellese,Biellese,defined,Perimetro provinciale operativo adottato e popolato con 74 comuni; codici ISTAT vigenti verificati al 2026.
-cusio,Cusio,defined,Perimetro Wikipedia adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
-vergante,Vergante,pending,Verificare distinzione fra Alto e Basso Vergante e corrispondenza con l'Unione Montana dei Due Laghi.
 acquese,Acquese,defined,Perimetro Wikipedia adottato e popolato con 26 comuni; codici ISTAT vigenti verificati al 2026.
-gran-paradiso,Gran Paradiso,defined,Perimetro operativo adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
-valle-d-aosta,Valle d'Aosta,defined,Perimetro operativo adottato e popolato con 74 comuni; codici ISTAT vigenti verificati al 2026.
+agordino,Agordino,defined,Perimetro adottato: 16 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+alta-valmarecchia,Alta Valmarecchia,defined,Perimetro adottato: 7 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
 alta-valtellina,Alta Valtellina,defined,Perimetro operativo SNAI adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
-valchiavenna,Valchiavenna,defined,Perimetro operativo adottato e popolato con 12 comuni; codici ISTAT vigenti verificati al 2026.
-valcamonica,Valcamonica,defined,Perimetro operativo SNAI adottato e popolato con 36 comuni; codici ISTAT vigenti verificati al 2026.
-val-seriana,Val Seriana,pending,La fonte regionale tratta insieme Valle Seriana e Val di Scalve: separare i due territori e verificare i comuni della sola Val Seriana.
-val-brembana,Val Brembana,pending,La fonte regionale riguarda l'Area Interna congiunta Valle Brembana-Valtellina di Morbegno: isolare il perimetro della Val Brembana.
-valsassina,Valsassina,pending,"La Comunità Montana comprende anche Valvarrone, Val d'Esino e Riviera: non usarne automaticamente l'intero perimetro."
-brianza,Brianza,pending,"La Provincia di Monza e della Brianza ha 55 comuni, ma la Brianza storico-geografica si estende oltre il confine provinciale: scegliere l'accezione."
-franciacorta,Franciacorta,pending,"Il disciplinare DOCG fornisce una delimitazione vitivinicola precisa, comprendente comuni interi e parziali: decidere se adottarla come perimetro operativo."
-oltrepo-pavese,Oltrepò Pavese,defined,Perimetro operativo SNAI adottato e popolato con 18 comuni; codici ISTAT vigenti verificati al 2026.
-lomellina,Lomellina,defined,Perimetro operativo SNAI adottato e popolato con 43 comuni; codici ISTAT vigenti verificati al 2026.
-val-trompia,Val Trompia,defined,Perimetro operativo SNAI adottato e popolato con 14 comuni; codici ISTAT vigenti verificati al 2026.
-val-sabbia,Val Sabbia,pending,"Usare la Comunità Montana come possibile riferimento operativo, verificando statuto, comuni aderenti e coincidenza con la valle geografica."
-val-venosta,Val Venosta,pending,"Caso test: perimetro della Comunità comprensoriale come riferimento operativo. Caso limite: Naturno, Parcines e Plaus (Burgraviato)."
-val-pusteria,Val Pusteria,pending,"La Comunita comprensoriale offre un possibile perimetro operativo di 26 comuni, ma include valli laterali e la Val Badia: verificare lo statuto."
-val-gardena,Val Gardena,defined,Perimetro operativo adottato e popolato con 3 comuni; codici ISTAT vigenti verificati al 2026.
-val-badia,Val Badia,defined,Perimetro operativo adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
-val-passiria,Val Passiria,defined,Perimetro operativo adottato e popolato con 3 comuni; codici ISTAT vigenti verificati al 2026.
-valle-isarco,Valle Isarco,pending,Distinguere la Comunita comprensoriale Valle Isarco dall Alta Val d Isarco (Wipptal) e acquisire l elenco statutario dei comuni.
-val-di-non,Val di Non,pending,
-val-di-sole,Val di Sole,defined,Perimetro della Comunita di valle adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
-val-di-fiemme,Val di Fiemme,defined,Perimetro della Comunita di valle adottato e popolato con 9 comuni; codici ISTAT vigenti verificati al 2026.
-valsugana,Valsugana,pending,Le due Comunita di valle includono anche Bersntol e Tesino: selezionare i soli comuni della Valsugana geografica.
-giudicarie,Giudicarie,defined,Perimetro della Comunita di valle adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
-vallagarina,Vallagarina,defined,Perimetro della Comunita di valle adottato e popolato con 17 comuni; codici ISTAT vigenti verificati al 2026.
-val-di-fassa,Val di Fassa,defined,Perimetro operativo adottato e popolato con 6 comuni; codici ISTAT vigenti verificati al 2026.
-dolomiti,Dolomiti,pending,"Il bene UNESCO e seriale e comprende nove sistemi con core e buffer: usare le geometrie ufficiali, non interi comuni."
-cadore,Cadore,pending,
-ampezzano,Ampezzano,pending,
-comelico,Comelico,defined,Perimetro operativo adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
-agordino,Agordino,pending,
-valbelluna,Valbelluna,pending,"La valle geografica supera l Unione Montana Val Belluna: integrare Bellunese, Destra Piave e Feltrino prima di definire il perimetro."
 altopiano-di-asiago,Altopiano di Asiago,defined,Perimetro operativo adottato e popolato con 7 comuni; codici ISTAT vigenti verificati al 2026.
-lessinia,Lessinia,pending,
-colli-euganei,Colli Euganei,pending,
-colli-berici,Colli Berici,defined,"Perimetro Wikipedia adottato; 16 comuni alla data geometrica 2026-01-01, con Castegnero e Nanto separati."
-riviera-del-brenta,Riviera del Brenta,defined,Perimetro operativo adottato e popolato con 9 comuni; codici ISTAT vigenti verificati al 2026.
-polesine,Polesine,pending,
-marca-trevigiana,Marca Trevigiana,defined,Perimetro provinciale operativo adottato e popolato con 94 comuni; codici ISTAT vigenti verificati al 2026.
-friuli,Friuli,pending,Delimitazione linguistica L.R. 29/2007: decidere se coincide con il Friuli del repertorio.
-carnia,Carnia,pending,Lo statuto della Comunita di montagna e una fonte primaria per un perimetro operativo; estrarre l elenco vigente dei comuni.
-val-canale,Val Canale,pending,
-canal-del-ferro,Canal del Ferro,pending,
-collio,Collio,pending,
-colli-orientali-del-friuli,Colli Orientali del Friuli,pending,
-carso,Carso,pending,"Tre definizioni diverse (GAL Carso, Carso Giuliano, Carso Isonzo Adriatico): scegliere un criterio unico."
-slavia-friulana,Slavia friulana,pending,"La tutela slovena della L. 38/2001 e piu ampia della Slavia friulana: scegliere il perimetro tra Valli del Natisone, Torre e Resia."
-bisiacaria,Bisiacaria,pending,Fonte istituzionale storico-culturale disponibile; integrare con l elenco degli otto comuni e documentare il caso controverso di Sagrado.
+ampezzano,Ampezzano,defined,Perimetro adottato: 1 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
 appennino-emiliano,Appennino emiliano,pending,L'area interna SNAI è più piccola del territorio: decidere il perimetro.
-frignano,Frignano,pending,
-valsamoggia,Valsamoggia,defined,Perimetro operativo adottato e popolato con 1 comuni; codici ISTAT vigenti verificati al 2026.
+biellese,Biellese,defined,Perimetro provinciale operativo adottato e popolato con 74 comuni; codici ISTAT vigenti verificati al 2026.
+bisiacaria,Bisiacaria,defined,Perimetro operativo lista geografica documentata adottato e popolato con 8 comuni; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+brianza,Brianza,pending,"La Provincia di Monza e della Brianza ha 55 comuni, ma la Brianza storico-geografica si estende oltre il confine provinciale: scegliere l'accezione."
+cadore,Cadore,defined,Perimetro adottato: 22 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+canal-del-ferro,Canal del Ferro,defined,Perimetro operativo lista geografica documentata adottato e popolato con 5 comuni; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+canavese,Canavese,defined,Perimetro inclusivo di Wikipedia adottato e popolato con 129 comuni; codici ISTAT vigenti verificati al 2026.
+carnia,Carnia,defined,Perimetro operativo SNAI 2021-2027 adottato e popolato con 25 comuni; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+carso,Carso,pending,"Tre definizioni diverse (GAL Carso, Carso Giuliano, Carso Isonzo Adriatico): scegliere un criterio unico."
+colli-berici,Colli Berici,defined,"Perimetro Wikipedia adottato; 16 comuni alla data geometrica 2026-01-01, con Castegnero e Nanto separati."
+colli-euganei,Colli Euganei,pending,
+colli-orientali-del-friuli,Colli Orientali del Friuli,pending,
+colline-matildiche,Colline Matildiche,defined,Perimetro adottato: 3 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+collio,Collio,pending,
+comelico,Comelico,defined,Perimetro operativo adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
+cusio,Cusio,defined,Perimetro Wikipedia adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
+dolomiti,Dolomiti,pending,"Il bene UNESCO e seriale e comprende nove sistemi con core e buffer: usare le geometrie ufficiali, non interi comuni."
+franciacorta,Franciacorta,pending,"Il disciplinare DOCG fornisce una delimitazione vitivinicola precisa, comprendente comuni interi e parziali: decidere se adottarla come perimetro operativo."
+frignano,Frignano,defined,Perimetro operativo adottato e popolato con 10 comuni costieri o dell Unione; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+friuli,Friuli,pending,Delimitazione linguistica L.R. 29/2007: decidere se coincide con il Friuli del repertorio.
+giudicarie,Giudicarie,defined,Perimetro della Comunita di valle adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
+gran-paradiso,Gran Paradiso,defined,Perimetro operativo adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
+langhe,Langhe,pending,La delimitazione UNESCO copre solo componenti selezionate delle Langhe: cercare una fonte per l'intero territorio storico-geografico.
+lessinia,Lessinia,pending,
+lomellina,Lomellina,defined,Perimetro operativo SNAI adottato e popolato con 43 comuni; codici ISTAT vigenti verificati al 2026.
+marca-trevigiana,Marca Trevigiana,defined,Perimetro provinciale operativo adottato e popolato con 94 comuni; codici ISTAT vigenti verificati al 2026.
+monferrato,Monferrato,pending,Il sito UNESCO fornisce perimetri GIS ufficiali ma parziali rispetto al Monferrato storico: scegliere l'accezione.
+oltrepo-pavese,Oltrepò Pavese,defined,Perimetro operativo SNAI adottato e popolato con 18 comuni; codici ISTAT vigenti verificati al 2026.
+polesine,Polesine,defined,Perimetro adottato: 50 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+riviera-del-brenta,Riviera del Brenta,defined,Perimetro operativo adottato e popolato con 9 comuni; codici ISTAT vigenti verificati al 2026.
+riviera-romagnola,Riviera romagnola,defined,Perimetro operativo adottato e popolato con 12 comuni costieri o dell Unione; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+roero,Roero,pending,"Il Roero è riconosciuto nel sito UNESCO complessivo, ma manca ancora una delimitazione istituzionale autonoma completa."
 romagna,Romagna,pending,Treccani descrive confini storici e fisici transregionali; occorre tradurli in un elenco riproducibile di comuni correnti.
-riviera-romagnola,Riviera romagnola,pending,
+romagna-toscana,Romagna Toscana,defined,Perimetro adottato: 15 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+slavia-friulana,Slavia friulana,defined,Perimetro operativo SNAI 2021-2027 adottato e popolato con 16 comuni; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+val-badia,Val Badia,defined,Perimetro operativo adottato e popolato con 5 comuni; codici ISTAT vigenti verificati al 2026.
+val-brembana,Val Brembana,defined,Perimetro amministrativo della Comunità Montana adottato: 37 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-canale,Val Canale,defined,Perimetro operativo lista geografica documentata adottato e popolato con 3 comuni; codici ISTAT verificati rispetto allo shapefile 2026-01-01.
+val-ceno,Val Ceno,defined,Perimetro adottato: 5 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-d-ossola,Val d'Ossola,defined,Perimetro operativo SNAI adottato e popolato con 21 comuni; codici ISTAT vigenti verificati al 2026.
+val-di-fassa,Val di Fassa,defined,Perimetro operativo adottato e popolato con 6 comuni; codici ISTAT vigenti verificati al 2026.
+val-di-fiemme,Val di Fiemme,defined,Perimetro della Comunita di valle adottato e popolato con 9 comuni; codici ISTAT vigenti verificati al 2026.
+val-di-non,Val di Non,defined,Perimetro amministrativo adottato: 23 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-di-sole,Val di Sole,defined,Perimetro della Comunita di valle adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
+val-di-susa,Val di Susa,defined,Perimetro adottato: 37 comuni; codici da shapefile ISTAT 2026-01-01.
+val-gardena,Val Gardena,defined,Perimetro operativo adottato e popolato con 3 comuni; codici ISTAT vigenti verificati al 2026.
+val-nure,Val Nure,defined,Perimetro adottato: 7 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-passiria,Val Passiria,defined,Perimetro operativo adottato e popolato con 3 comuni; codici ISTAT vigenti verificati al 2026.
+val-pusteria,Val Pusteria,defined,Perimetro operativo di 17 comuni: Comunità comprensoriale Val Pusteria depurata dai comuni della Val Badia e delle Valli di Tures e Aurina; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-sabbia,Val Sabbia,defined,Perimetro amministrativo della Comunità Montana adottato: 25 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-seriana,Val Seriana,defined,Perimetro amministrativo della Comunità Montana adottato: 38 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-trebbia,Val Trebbia,defined,Perimetro adottato: 16 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+val-trompia,Val Trompia,defined,Perimetro operativo SNAI adottato e popolato con 14 comuni; codici ISTAT vigenti verificati al 2026.
+val-venosta,Val Venosta,defined,Perimetro amministrativo adottato: 13 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+valbelluna,Valbelluna,defined,Perimetro adottato: 4 comuni; codici da shapefile ISTAT 2026-01-01.
+valcamonica,Valcamonica,defined,Perimetro operativo SNAI adottato e popolato con 36 comuni; codici ISTAT vigenti verificati al 2026.
+valchiavenna,Valchiavenna,defined,Perimetro operativo adottato e popolato con 12 comuni; codici ISTAT vigenti verificati al 2026.
+vallagarina,Vallagarina,defined,Perimetro della Comunita di valle adottato e popolato con 17 comuni; codici ISTAT vigenti verificati al 2026.
+valle-d-aosta,Valle d'Aosta,defined,Perimetro operativo adottato e popolato con 74 comuni; codici ISTAT vigenti verificati al 2026.
+valle-del-lamone,Valle del Lamone,defined,Perimetro adottato: 2 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
+valle-isarco,Valle Isarco,defined,Perimetro amministrativo adottato: 13 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
 valli-di-comacchio,Valli di Comacchio,pending,
+valli-di-lanzo,Valli di Lanzo,defined,Perimetro operativo SNAI adottato e popolato con 19 comuni; codici ISTAT vigenti verificati al 2026.
+valli-occitane,Valli occitane,pending,Fonte linguistico-culturale disponibile con le 14 valli e i comuni delimitati ai sensi della L. 482/1999; decidere se adottare questo perimetro o quello strettamente geografico.
+valli-valdesi,Valli valdesi,defined,Perimetro Wikipedia adottato e popolato con 24 comuni; codici ISTAT vigenti verificati al 2026.
+valsamoggia,Valsamoggia,defined,Perimetro operativo adottato e popolato con 1 comuni; codici ISTAT vigenti verificati al 2026.
+valsassina,Valsassina,defined,Perimetro adottato: 15 comuni; codici da shapefile ISTAT 2026-01-01.
+valsesia,Valsesia,defined,Perimetro operativo adottato e popolato con 26 comuni; codici ISTAT vigenti verificati al 2026.
+valsugana,Valsugana,defined,Perimetro adottato: 20 comuni; codici da shapefile ISTAT 2026-01-01.
+vergante,Vergante,defined,Perimetro adottato: 16 comuni; codici da shapefile ISTAT 2026-01-01.

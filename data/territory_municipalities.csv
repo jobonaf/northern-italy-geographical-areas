@@ -25,6 +25,29 @@ acquese,006165,S0117,
 acquese,006168,S0117,
 acquese,006172,S0117,
 acquese,006187,S0117,
+agordino,025001,S0056,Agordo
+agordino,025003,S0056,Alleghe
+agordino,025010,S0056,Cencenighe Agordino
+agordino,025014,S0056,Colle Santa Lucia
+agordino,025019,S0056,Falcade
+agordino,025023,S0056,Canale d'Agordo
+agordino,025025,S0056,Gosaldo
+agordino,025027,S0056,La Valle Agordina
+agordino,025030,S0056,Livinallongo del Col di Lana
+agordino,025043,S0056,Rivamonte Agordino
+agordino,025044,S0056,Rocca Pietore
+agordino,025049,S0056,San Tomaso Agordino
+agordino,025054,S0056,Selva di Cadore
+agordino,025059,S0056,Taibon Agordino
+agordino,025062,S0056,Vallada Agordina
+agordino,025067,S0056,Voltago Agordino
+alta-valmarecchia,099021,S0125,Casteldelci
+alta-valmarecchia,099022,S0125,Maiolo
+alta-valmarecchia,099023,S0125,Novafeltria
+alta-valmarecchia,099024,S0125,Pennabilli
+alta-valmarecchia,099025,S0125,San Leo
+alta-valmarecchia,099026,S0125,Sant'Agata Feltria
+alta-valmarecchia,099027,S0125,Talamello
 alta-valtellina,014009,S0071,
 alta-valtellina,014060,S0071,
 alta-valtellina,014071,S0071,
@@ -37,6 +60,7 @@ altopiano-di-asiago,024042,S0059,
 altopiano-di-asiago,024085,S0059,
 altopiano-di-asiago,024089,S0059,
 altopiano-di-asiago,024127,S0059,
+ampezzano,025016,S0054,Cortina d'Ampezzo
 biellese,096001,S0095,
 biellese,096002,S0095,
 biellese,096003,S0095,
@@ -111,6 +135,41 @@ biellese,096085,S0095,
 biellese,096086,S0095,
 biellese,096087,S0095,
 biellese,096088,S0095,
+bisiacaria,031006,S0113,Fogliano Redipuglia
+bisiacaria,031012,S0113,Monfalcone
+bisiacaria,031016,S0113,Ronchi dei Legionari
+bisiacaria,031017,S0113,Sagrado
+bisiacaria,031018,S0113,San Canzian d'Isonzo
+bisiacaria,031021,S0113,San Pier d'Isonzo
+bisiacaria,031023,S0113,Staranzano
+bisiacaria,031024,S0113,Turriaco
+cadore,025005,S0052,Auronzo di Cadore
+cadore,025007,S0052,Borca di Cadore
+cadore,025008,S0052,Calalzo di Cadore
+cadore,025013,S0052,Cibiana di Cadore
+cadore,025015,S0052,Comelico Superiore
+cadore,025016,S0052,Cortina d'Ampezzo
+cadore,025017,S0052,Danta di Cadore
+cadore,025018,S0052,Domegge di Cadore
+cadore,025032,S0052,Lorenzago di Cadore
+cadore,025033,S0052,Lozzo di Cadore
+cadore,025035,S0052,Ospitale di Cadore
+cadore,025037,S0052,Perarolo di Cadore
+cadore,025039,S0052,Pieve di Cadore
+cadore,025046,S0052,San Nicolò di Comelico
+cadore,025047,S0052,San Pietro di Cadore
+cadore,025050,S0052,Santo Stefano di Cadore
+cadore,025051,S0052,San Vito di Cadore
+cadore,025063,S0052,Valle di Cadore
+cadore,025065,S0052,Vigo di Cadore
+cadore,025066,S0052,Vodo Cadore
+cadore,025069,S0052,Zoppè di Cadore
+cadore,030189,S0052,Sappada
+canal-del-ferro,030025,S0022,
+canal-del-ferro,030033,S0022,
+canal-del-ferro,030059,S0022,
+canal-del-ferro,030076,S0022,
+canal-del-ferro,030092,S0022,
 canavese,001001,S0115,
 canavese,001004,S0115,
 canavese,001007,S0115,
@@ -240,6 +299,31 @@ canavese,001318,S0115,
 canavese,002079,S0115,
 canavese,096054,S0115,
 canavese,096080,S0115,
+carnia,030003,S0111,Ampezzo
+carnia,030005,S0111,Arta Terme
+carnia,030022,S0111,Cercivento
+carnia,030029,S0111,Comeglians
+carnia,030035,S0111,Enemonzo
+carnia,030040,S0111,Forni Avoltri
+carnia,030041,S0111,Forni di Sopra
+carnia,030042,S0111,Forni di Sotto
+carnia,030047,S0111,Lauco
+carnia,030067,S0111,Ovaro
+carnia,030071,S0111,Paluzza
+carnia,030073,S0111,Paularo
+carnia,030081,S0111,Prato Carnico
+carnia,030084,S0111,Preone
+carnia,030088,S0111,Ravascletto
+carnia,030089,S0111,Raveo
+carnia,030094,S0111,Rigolato
+carnia,030107,S0111,Sauris
+carnia,030110,S0111,Socchieve
+carnia,030112,S0111,Sutrio
+carnia,030132,S0111,Verzegnis
+carnia,030133,S0111,Villa Santina
+carnia,030136,S0111,Zuglio
+carnia,030189,S0111,Sappada
+carnia,030191,S0111,Treppo Ligosullo
 colli-berici,024003,S0119,
 colli-berici,024004,S0119,
 colli-berici,024006,S0119,
@@ -256,6 +340,9 @@ colli-berici,024117,S0119,
 colli-berici,024121,S0119,
 colli-berici,024123,S0119,
 colli-berici,024124,S0119,
+colline-matildiche,035001,S0124,Albinea
+colline-matildiche,035030,S0124,Quattro Castella
+colline-matildiche,035043,S0124,Vezzano sul Crostolo
 comelico,025015,S0055,
 comelico,025017,S0055,
 comelico,025046,S0055,
@@ -286,6 +373,16 @@ cusio,103050,S0116,
 cusio,103058,S0116,
 cusio,103059,S0116,
 cusio,103069,S0116,
+frignano,036011,S0038,
+frignano,036014,S0038,
+frignano,036018,S0038,
+frignano,036024,S0038,
+frignano,036030,S0038,
+frignano,036031,S0038,
+frignano,036032,S0038,
+frignano,036035,S0038,
+frignano,036042,S0038,
+frignano,036043,S0038,
 giudicarie,022017,S0010,
 giudicarie,022018,S0010,
 giudicarie,022021,S0010,
@@ -479,6 +576,56 @@ oltrepo-pavese,018166,S0079,
 oltrepo-pavese,018171,S0079,
 oltrepo-pavese,018184,S0079,
 oltrepo-pavese,018193,S0079,
+polesine,029001,S0070,Adria
+polesine,029002,S0070,Ariano nel Polesine
+polesine,029003,S0070,ArquÃ  Polesine
+polesine,029004,S0070,Badia Polesine
+polesine,029005,S0070,Bagnolo di Po
+polesine,029006,S0070,Bergantino
+polesine,029007,S0070,Bosaro
+polesine,029008,S0070,Calto
+polesine,029009,S0070,Canaro
+polesine,029010,S0070,Canda
+polesine,029011,S0070,Castelguglielmo
+polesine,029012,S0070,Castelmassa
+polesine,029013,S0070,Castelnovo Bariano
+polesine,029014,S0070,Ceneselli
+polesine,029015,S0070,Ceregnano
+polesine,029017,S0070,Corbola
+polesine,029018,S0070,Costa di Rovigo
+polesine,029019,S0070,Crespino
+polesine,029021,S0070,Ficarolo
+polesine,029022,S0070,Fiesso Umbertiano
+polesine,029023,S0070,Frassinelle Polesine
+polesine,029024,S0070,Fratta Polesine
+polesine,029025,S0070,Gaiba
+polesine,029026,S0070,Gavello
+polesine,029027,S0070,Giacciano con Baruchella
+polesine,029028,S0070,Guarda Veneta
+polesine,029029,S0070,Lendinara
+polesine,029030,S0070,Loreo
+polesine,029031,S0070,Lusia
+polesine,029032,S0070,Melara
+polesine,029033,S0070,Occhiobello
+polesine,029034,S0070,Papozze
+polesine,029035,S0070,Pettorazza Grimani
+polesine,029036,S0070,Pincara
+polesine,029037,S0070,Polesella
+polesine,029038,S0070,Pontecchio Polesine
+polesine,029039,S0070,Porto Tolle
+polesine,029040,S0070,Rosolina
+polesine,029041,S0070,Rovigo
+polesine,029042,S0070,Salara
+polesine,029043,S0070,San Bellino
+polesine,029044,S0070,San Martino di Venezze
+polesine,029045,S0070,Stienta
+polesine,029046,S0070,Taglio di Po
+polesine,029047,S0070,Trecenta
+polesine,029048,S0070,Villadose
+polesine,029049,S0070,Villamarzana
+polesine,029050,S0070,Villanova del Ghebbo
+polesine,029051,S0070,Villanova Marchesana
+polesine,029052,S0070,Porto Viro
 riviera-del-brenta,027002,S0067,
 riviera-del-brenta,027004,S0067,
 riviera-del-brenta,027012,S0067,
@@ -488,11 +635,99 @@ riviera-del-brenta,027023,S0067,
 riviera-del-brenta,027028,S0067,
 riviera-del-brenta,027039,S0067,
 riviera-del-brenta,027043,S0067,
+riviera-romagnola,039007,S0045,
+riviera-romagnola,039014,S0045,
+riviera-romagnola,040008,S0045,
+riviera-romagnola,040016,S0045,
+riviera-romagnola,040041,S0045,
+riviera-romagnola,040045,S0045,
+riviera-romagnola,041019,S0045,
+riviera-romagnola,099001,S0045,
+riviera-romagnola,099002,S0045,
+riviera-romagnola,099005,S0045,
+riviera-romagnola,099013,S0045,
+riviera-romagnola,099014,S0045,
+romagna-toscana,040001,S0122,Bagno di Romagna
+romagna-toscana,040005,S0122,Castrocaro Terme e Terra del Sole
+romagna-toscana,040011,S0122,Dovadola
+romagna-toscana,040014,S0122,Galeata
+romagna-toscana,040022,S0122,Modigliana
+romagna-toscana,040031,S0122,Portico e San Benedetto
+romagna-toscana,040033,S0122,Premilcuore
+romagna-toscana,040036,S0122,Rocca San Casciano
+romagna-toscana,040043,S0122,Santa Sofia
+romagna-toscana,040044,S0122,Sarsina
+romagna-toscana,040049,S0122,Tredozio
+romagna-toscana,040050,S0122,Verghereto
+romagna-toscana,048018,S0122,Firenzuola
+romagna-toscana,048026,S0122,Marradi
+romagna-toscana,048031,S0122,Palazzuolo sul Senio
+slavia-friulana,030007,S0112,Attimis
+slavia-friulana,030034,S0112,Drenchia
+slavia-friulana,030036,S0112,Faedis
+slavia-friulana,030045,S0112,Grimacco
+slavia-friulana,030051,S0112,Lusevera
+slavia-friulana,030052,S0112,Magnano in Riviera
+slavia-friulana,030065,S0112,Nimis
+slavia-friulana,030085,S0112,Prepotto
+slavia-friulana,030086,S0112,Pulfero
+slavia-friulana,030102,S0112,San Leonardo
+slavia-friulana,030103,S0112,San Pietro al Natisone
+slavia-friulana,030108,S0112,Savogna
+slavia-friulana,030111,S0112,Stregna
+slavia-friulana,030113,S0112,Taipana
+slavia-friulana,030116,S0112,Tarcento
+slavia-friulana,030122,S0112,Torreano
 val-badia,021006,S0102,
 val-badia,021026,S0102,
 val-badia,021047,S0102,
 val-badia,021082,S0102,
 val-badia,021117,S0102,
+val-brembana,016014,S0075,
+val-brembana,016027,S0075,
+val-brembana,016035,S0075,
+val-brembana,016036,S0075,
+val-brembana,016048,S0075,
+val-brembana,016056,S0075,
+val-brembana,016061,S0075,
+val-brembana,016090,S0075,
+val-brembana,016092,S0075,
+val-brembana,016103,S0075,
+val-brembana,016121,S0075,
+val-brembana,016125,S0075,
+val-brembana,016134,S0075,
+val-brembana,016136,S0075,
+val-brembana,016145,S0075,
+val-brembana,016146,S0075,
+val-brembana,016151,S0075,
+val-brembana,016164,S0075,
+val-brembana,016165,S0075,
+val-brembana,016166,S0075,
+val-brembana,016184,S0075,
+val-brembana,016188,S0075,
+val-brembana,016190,S0075,
+val-brembana,016191,S0075,
+val-brembana,016196,S0075,
+val-brembana,016199,S0075,
+val-brembana,016210,S0075,
+val-brembana,016221,S0075,
+val-brembana,016226,S0075,
+val-brembana,016227,S0075,
+val-brembana,016229,S0075,
+val-brembana,016230,S0075,
+val-brembana,016246,S0075,
+val-brembana,016247,S0075,
+val-brembana,016248,S0075,
+val-brembana,016249,S0075,
+val-brembana,016253,S0075,
+val-canale,030054,S0024,
+val-canale,030076,S0024,
+val-canale,030117,S0024,
+val-ceno,034002,S0121,Bardi
+val-ceno,034005,S0121,Bore
+val-ceno,034028,S0121,Pellegrino Parmense
+val-ceno,034045,S0121,Varano de' Melegari
+val-ceno,034046,S0121,Varsi
 val-d-ossola,103001,S0090,
 val-d-ossola,103002,S0090,
 val-d-ossola,103007,S0090,
@@ -529,6 +764,29 @@ val-di-fiemme,022196,S0007,
 val-di-fiemme,022209,S0007,
 val-di-fiemme,022226,S0007,
 val-di-fiemme,022254,S0007,
+val-di-non,022026,S0008,Bresimo
+val-di-non,022037,S0008,Campodenno
+val-di-non,022051,S0008,Cavareno
+val-di-non,022060,S0008,Cis
+val-di-non,022062,S0008,Cles
+val-di-non,022071,S0008,Dambel
+val-di-non,022074,S0008,Denno
+val-di-non,022106,S0008,Livo
+val-di-non,022155,S0008,Romeno
+val-di-non,022159,S0008,Ronzone
+val-di-non,022162,S0008,Ruffrè-Mendola
+val-di-non,022163,S0008,Rumo
+val-di-non,022169,S0008,Sanzeno
+val-di-non,022170,S0008,Sarnonico
+val-di-non,022173,S0008,Sfruz
+val-di-non,022181,S0008,Sporminore
+val-di-non,022200,S0008,Ton
+val-di-non,022230,S0008,Predaia
+val-di-non,022237,S0008,Amblar-Don
+val-di-non,022242,S0008,Contà
+val-di-non,022249,S0008,Ville d'Anaunia
+val-di-non,022252,S0008,Borgo d'Anaunia
+val-di-non,022253,S0008,Novella
 val-di-sole,022033,S0009,
 val-di-sole,022054,S0009,
 val-di-sole,022064,S0009,
@@ -542,12 +800,152 @@ val-di-sole,022150,S0009,
 val-di-sole,022195,S0009,
 val-di-sole,022213,S0009,
 val-di-sole,022233,S0009,
+val-di-susa,001006,S0092,Almese
+val-di-susa,001013,S0092,Avigliana
+val-di-susa,001022,S0092,Bardonecchia
+val-di-susa,001032,S0092,Borgone Susa
+val-di-susa,001040,S0092,Bruzolo
+val-di-susa,001044,S0092,Bussoleno
+val-di-susa,001055,S0092,Caprie
+val-di-susa,001062,S0092,Caselette
+val-di-susa,001074,S0092,Cesana Torinese
+val-di-susa,001076,S0092,Chianocco
+val-di-susa,001080,S0092,Chiomonte
+val-di-susa,001081,S0092,Chiusa di San Michele
+val-di-susa,001087,S0092,Claviere
+val-di-susa,001093,S0092,Condove
+val-di-susa,001100,S0092,Exilles
+val-di-susa,001114,S0092,Giaglione
+val-di-susa,001117,S0092,Gravere
+val-di-susa,001147,S0092,Mattie
+val-di-susa,001149,S0092,Meana di Susa
+val-di-susa,001154,S0092,Mompantero
+val-di-susa,001157,S0092,Moncenisio
+val-di-susa,001169,S0092,Novalesa
+val-di-susa,001175,S0092,Oulx
+val-di-susa,001229,S0092,Rubiana
+val-di-susa,001232,S0092,Salbertrand
+val-di-susa,001239,S0092,San Didero
+val-di-susa,001245,S0092,San Giorio di Susa
+val-di-susa,001255,S0092,Sant'Ambrogio di Torino
+val-di-susa,001256,S0092,Sant'Antonino di Susa
+val-di-susa,001258,S0092,Sauze di Cesana
+val-di-susa,001259,S0092,Sauze d'Oulx
+val-di-susa,001263,S0092,Sestriere
+val-di-susa,001270,S0092,Susa
+val-di-susa,001283,S0092,Vaie
+val-di-susa,001291,S0092,Venaus
+val-di-susa,001303,S0092,Villar Dora
+val-di-susa,001305,S0092,Villar Focchiardo
 val-gardena,021061,S0101,
 val-gardena,021085,S0101,
 val-gardena,021089,S0101,
+val-nure,033004,S0120,Bettola
+val-nure,033019,S0120,Farini
+val-nure,033020,S0120,Ferriere
+val-nure,033035,S0120,Podenzano
+val-nure,033036,S0120,Ponte dell'Olio
+val-nure,033040,S0120,San Giorgio Piacentino
+val-nure,033045,S0120,Vigolzone
 val-passiria,021054,S0103,
 val-passiria,021080,S0103,
 val-passiria,021083,S0103,
+val-pusteria,021009,S0100,Braies
+val-pusteria,021013,S0100,Brunico
+val-pusteria,021021,S0100,Chienes
+val-pusteria,021028,S0100,Dobbiaco
+val-pusteria,021030,S0100,Falzes
+val-pusteria,021034,S0100,Gais
+val-pusteria,021052,S0100,Monguelfo-Tesido
+val-pusteria,021063,S0100,Perca
+val-pusteria,021071,S0100,Rasun-Anterselva
+val-pusteria,021077,S0100,San Candido
+val-pusteria,021081,S0100,San Lorenzo di Sebato
+val-pusteria,021092,S0100,Sesto
+val-pusteria,021096,S0100,Terento
+val-pusteria,021106,S0100,Valdaora
+val-pusteria,021109,S0100,Valle di Casies
+val-pusteria,021110,S0100,Vandoies
+val-pusteria,021113,S0100,Villabassa
+val-sabbia,017003,S0080,
+val-sabbia,017005,S0080,
+val-sabbia,017010,S0080,
+val-sabbia,017012,S0080,
+val-sabbia,017019,S0080,
+val-sabbia,017036,S0080,
+val-sabbia,017044,S0080,
+val-sabbia,017077,S0080,
+val-sabbia,017082,S0080,
+val-sabbia,017087,S0080,
+val-sabbia,017115,S0080,
+val-sabbia,017121,S0080,
+val-sabbia,017132,S0080,
+val-sabbia,017139,S0080,
+val-sabbia,017140,S0080,
+val-sabbia,017153,S0080,
+val-sabbia,017157,S0080,
+val-sabbia,017164,S0080,
+val-sabbia,017168,S0080,
+val-sabbia,017178,S0080,
+val-sabbia,017191,S0080,
+val-sabbia,017193,S0080,
+val-sabbia,017197,S0080,
+val-sabbia,017201,S0080,
+val-sabbia,017204,S0080,
+val-seriana,016004,S0074,
+val-seriana,016008,S0074,
+val-seriana,016012,S0074,
+val-seriana,016015,S0074,
+val-seriana,016060,S0074,
+val-seriana,016064,S0074,
+val-seriana,016067,S0074,
+val-seriana,016070,S0074,
+val-seriana,016071,S0074,
+val-seriana,016077,S0074,
+val-seriana,016080,S0074,
+val-seriana,016099,S0074,
+val-seriana,016100,S0074,
+val-seriana,016107,S0074,
+val-seriana,016108,S0074,
+val-seriana,016111,S0074,
+val-seriana,016116,S0074,
+val-seriana,016118,S0074,
+val-seriana,016124,S0074,
+val-seriana,016144,S0074,
+val-seriana,016147,S0074,
+val-seriana,016148,S0074,
+val-seriana,016149,S0074,
+val-seriana,016158,S0074,
+val-seriana,016161,S0074,
+val-seriana,016163,S0074,
+val-seriana,016168,S0074,
+val-seriana,016173,S0074,
+val-seriana,016175,S0074,
+val-seriana,016178,S0074,
+val-seriana,016187,S0074,
+val-seriana,016197,S0074,
+val-seriana,016201,S0074,
+val-seriana,016223,S0074,
+val-seriana,016225,S0074,
+val-seriana,016234,S0074,
+val-seriana,016240,S0074,
+val-seriana,016241,S0074,
+val-trebbia,010022,S0123,Fascia
+val-trebbia,010024,S0123,Fontanigorda
+val-trebbia,010026,S0123,Gorreto
+val-trebbia,010038,S0123,Montebruno
+val-trebbia,010045,S0123,Propata
+val-trebbia,010050,S0123,Rondanina
+val-trebbia,010052,S0123,Rovegno
+val-trebbia,010062,S0123,Torriglia
+val-trebbia,033005,S0123,Bobbio
+val-trebbia,033015,S0123,Cerignale
+val-trebbia,033016,S0123,Coli
+val-trebbia,033017,S0123,Corte Brugnatella
+val-trebbia,033030,S0123,Ottone
+val-trebbia,033038,S0123,Rivergaro
+val-trebbia,033043,S0123,Travo
+val-trebbia,033047,S0123,Zerba
 val-trompia,017024,S0081,
 val-trompia,017030,S0081,
 val-trompia,017031,S0081,
@@ -562,6 +960,23 @@ val-trompia,017141,S0081,
 val-trompia,017144,S0081,
 val-trompia,017174,S0081,
 val-trompia,017183,S0081,
+val-venosta,021018,S0002,Castelbello-Ciardes
+val-venosta,021027,S0002,Curon Venosta
+val-venosta,021036,S0002,Glorenza
+val-venosta,021037,S0002,Laces
+val-venosta,021042,S0002,Lasa
+val-venosta,021046,S0002,Malles Venosta
+val-venosta,021049,S0002,Martello
+val-venosta,021067,S0002,Prato allo Stelvio
+val-venosta,021091,S0002,Senales
+val-venosta,021093,S0002,Silandro
+val-venosta,021094,S0002,Sluderno
+val-venosta,021095,S0002,Stelvio
+val-venosta,021103,S0002,Tubre
+valbelluna,025029,S0109,Limana
+valbelluna,025053,S0109,Sedico
+valbelluna,025056,S0109,Sospirolo
+valbelluna,025074,S0109,Borgo Valbelluna
 valcamonica,017006,S0073,
 valcamonica,017007,S0073,
 valcamonica,017016,S0073,
@@ -701,6 +1116,21 @@ valle-d-aosta,007071,S0083,
 valle-d-aosta,007072,S0083,
 valle-d-aosta,007073,S0083,
 valle-d-aosta,007074,S0083,
+valle-del-lamone,039004,S0126,Brisighella
+valle-del-lamone,048026,S0126,Marradi
+valle-isarco,021007,S0104,Barbiano
+valle-isarco,021011,S0104,Bressanone
+valle-isarco,021022,S0104,Chiusa
+valle-isarco,021033,S0104,Funes
+valle-isarco,021039,S0104,Laion
+valle-isarco,021044,S0104,Luson
+valle-isarco,021057,S0104,Naz-Sciaves
+valle-isarco,021065,S0104,Ponte Gardena
+valle-isarco,021074,S0104,Rio di Pusteria
+valle-isarco,021075,S0104,Rodengo
+valle-isarco,021111,S0104,Varna
+valle-isarco,021114,S0104,Villandro
+valle-isarco,021116,S0104,Velturno
 valli-di-lanzo,001003,S0091,
 valli-di-lanzo,001016,S0091,
 valli-di-lanzo,001019,S0091,
@@ -745,6 +1175,21 @@ valli-valdesi,001281,S0118,
 valli-valdesi,001306,S0118,
 valli-valdesi,001307,S0118,
 valsamoggia,037061,S0042,
+valsassina,097007,S0076,Barzio
+valsassina,097008,S0076,Bellano
+valsassina,097015,S0076,Casargo
+valsassina,097018,S0076,Cassina Valsassina
+valsassina,097025,S0076,Cortenova
+valsassina,097027,S0076,Crandola Valsassina
+valsassina,097029,S0076,Cremeno
+valsassina,097040,S0076,Introbio
+valsassina,097047,S0076,Margno
+valsassina,097050,S0076,Moggio
+valsassina,097055,S0076,Morterone
+valsassina,097064,S0076,Parlasco
+valsassina,097065,S0076,Pasturo
+valsassina,097070,S0076,Primaluna
+valsassina,097079,S0076,Taceno
 valsesia,002002,S0089,
 valsesia,002008,S0089,
 valsesia,002014,S0089,
@@ -771,3 +1216,39 @@ valsesia,002156,S0089,
 valsesia,002166,S0089,
 valsesia,002170,S0089,
 valsesia,002171,S0089,
+valsugana,022015,S0105,Bieno
+valsugana,022022,S0105,Borgo Valsugana
+valsugana,022032,S0105,Calceranica al Lago
+valsugana,022034,S0105,Caldonazzo
+valsugana,022043,S0105,Carzano
+valsugana,022049,S0105,Castelnuovo
+valsugana,022095,S0105,Grigno
+valsugana,022104,S0105,Levico Terme
+valsugana,022129,S0105,Novaledo
+valsugana,022130,S0105,Ospedaletto
+valsugana,022139,S0105,Pergine Valsugana
+valsugana,022156,S0105,Roncegno Terme
+valsugana,022157,S0105,Ronchi Valsugana
+valsugana,022165,S0105,Samone
+valsugana,022171,S0105,Scurelle
+valsugana,022188,S0105,Telve
+valsugana,022189,S0105,Telve di Sopra
+valsugana,022190,S0105,Tenna
+valsugana,022202,S0105,Torcegno
+valsugana,022240,S0105,Castel Ivano
+vergante,003008,S0097,Arona
+vergante,003051,S0097,Colazza
+vergante,003062,S0097,Dormelletto
+vergante,003082,S0097,Invorio
+vergante,003084,S0097,Lesa
+vergante,003093,S0097,Massino Visconti
+vergante,003095,S0097,Meina
+vergante,003103,S0097,Nebbiuno
+vergante,003109,S0097,Oleggio Castello
+vergante,003114,S0097,Paruzzaro
+vergante,003119,S0097,Pisano
+vergante,103008,S0097,Baveno
+vergante,103010,S0097,Belgirate
+vergante,103013,S0097,Brovello-Carpugnino
+vergante,103034,S0097,Gignese
+vergante,103064,S0097,Stresa
