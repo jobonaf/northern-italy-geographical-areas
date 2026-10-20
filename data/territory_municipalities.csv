@@ -53,6 +53,47 @@ alta-valtellina,014060,S0071,
 alta-valtellina,014071,S0071,
 alta-valtellina,014072,S0071,
 alta-valtellina,014073,S0071,
+alto-monferrato,006001,S0086,Acqui Terme
+alto-monferrato,006005,S0086,Alice Bel Colle
+alto-monferrato,006014,S0086,Belforte Monferrato
+alto-monferrato,006022,S0086,Bosio
+alto-monferrato,006029,S0086,Capriata d'Orba
+alto-monferrato,006033,S0086,Carpeneto
+alto-monferrato,006036,S0086,Cartosio
+alto-monferrato,006038,S0086,Casaleggio Boiro
+alto-monferrato,006043,S0086,Cassine
+alto-monferrato,006044,S0086,Cassinelle
+alto-monferrato,006048,S0086,Castelletto d'Erro
+alto-monferrato,006049,S0086,Castelletto d'Orba
+alto-monferrato,006052,S0086,Castelnuovo Bormida
+alto-monferrato,006055,S0086,Cavatore
+alto-monferrato,006063,S0086,Cremolino
+alto-monferrato,006084,S0086,Grognardo
+alto-monferrato,006088,S0086,Lerma
+alto-monferrato,006090,S0086,Malvicino
+alto-monferrato,006092,S0086,Melazzo
+alto-monferrato,006095,S0086,Molare
+alto-monferrato,006103,S0086,Montaldeo
+alto-monferrato,006104,S0086,Montaldo Bormida
+alto-monferrato,006110,S0086,Morbello
+alto-monferrato,006111,S0086,Mornese
+alto-monferrato,006112,S0086,Morsasco
+alto-monferrato,006119,S0086,Orsara Bormida
+alto-monferrato,006121,S0086,Ovada
+alto-monferrato,006125,S0086,Pareto
+alto-monferrato,006136,S0086,Ponzone
+alto-monferrato,006139,S0086,Prasco
+alto-monferrato,006140,S0086,Predosa
+alto-monferrato,006143,S0086,Ricaldone
+alto-monferrato,006144,S0086,Rivalta Bormida
+alto-monferrato,006147,S0086,Rocca Grimalda
+alto-monferrato,006161,S0086,Sezzadio
+alto-monferrato,006162,S0086,Silvano d'Orba
+alto-monferrato,006168,S0086,Strevi
+alto-monferrato,006169,S0086,Tagliolo Monferrato
+alto-monferrato,006172,S0086,Terzo
+alto-monferrato,006176,S0086,Trisobbio
+alto-monferrato,006187,S0086,Visone
 altopiano-di-asiago,024009,S0059,
 altopiano-di-asiago,024039,S0059,
 altopiano-di-asiago,024041,S0059,
@@ -421,6 +462,111 @@ gran-paradiso,007055,S0099,
 gran-paradiso,007056,S0099,
 gran-paradiso,007070,S0099,
 gran-paradiso,007074,S0099,
+langhe,004003,S0085,Alba; Bassa Langa
+langhe,004004,S0085,Albaretto della Torre; Alta Langa
+langhe,004007,S0085,Arguello; Alta Langa
+langhe,004011,S0085,Barbaresco; Bassa Langa
+langhe,004013,S0085,Barolo; Bassa Langa
+langhe,004014,S0085,Bastia Mondovi; Langa Monregalese
+langhe,004018,S0085,Belvedere Langhe; Alta Langa
+langhe,004020,S0085,Benevello; Alta Langa
+langhe,004021,S0085,Bergolo; Alta Langa
+langhe,004023,S0085,Bonvicino; Alta Langa
+langhe,004024,S0085,Borgomale; Alta Langa
+langhe,004026,S0085,Bosia; Alta Langa
+langhe,004027,S0085,Bossolasco; Alta Langa
+langhe,004030,S0085,Briaglia; Langa Monregalese
+langhe,004035,S0085,Camerana; Alta Langa
+langhe,004043,S0085,Carru; Langa Monregalese
+langhe,004050,S0085,Castelletto Uzzone; Alta Langa
+langhe,004052,S0085,Castellino Tanaro; Bassa Langa
+langhe,004055,S0085,Castiglione Falletto; Bassa Langa
+langhe,004056,S0085,Castiglione Tinella; Bassa Langa
+langhe,004057,S0085,Castino; Alta Langa
+langhe,004063,S0085,Cerretto Langhe; Alta Langa
+langhe,004066,S0085,Ceva; Langa Monregalese
+langhe,004067,S0085,Cherasco; Bassa Langa
+langhe,004069,S0085,Ciglie; Langa Monregalese
+langhe,004070,S0085,Cissone; Alta Langa
+langhe,004071,S0085,Clavesana; Langa Monregalese
+langhe,004073,S0085,Cortemilia; Alta Langa
+langhe,004074,S0085,Cossano Belbo; Alta Langa
+langhe,004076,S0085,Cravanzana; Alta Langa
+langhe,004080,S0085,Diano d'Alba; Bassa Langa
+langhe,004081,S0085,Dogliani; Bassa Langa
+langhe,004086,S0085,Farigliano; Bassa Langa
+langhe,004088,S0085,Feisoglio; Alta Langa
+langhe,004097,S0085,Gorzegno; Alta Langa
+langhe,004098,S0085,Gottasecca; Alta Langa
+langhe,004100,S0085,Grinzane Cavour; Bassa Langa
+langhe,004102,S0085,Igliano; Langa Monregalese
+langhe,004105,S0085,La Morra; Bassa Langa
+langhe,004106,S0085,Lequio Berria; Alta Langa
+langhe,004107,S0085,Lequio Tanaro; Bassa Langa
+langhe,004109,S0085,Levice; Alta Langa
+langhe,004115,S0085,Mango; Bassa Langa
+langhe,004120,S0085,Marsaglia; Langa Monregalese
+langhe,004124,S0085,Mombarcaro; Alta Langa
+langhe,004129,S0085,Monchiero; Bassa Langa
+langhe,004130,S0085,Mondovi; Langa Monregalese
+langhe,004131,S0085,Monesiglio; Alta Langa
+langhe,004132,S0085,Monforte d'Alba; Bassa Langa
+langhe,004137,S0085,Montelupo Albese; Bassa Langa
+langhe,004141,S0085,Montezemolo; Alta Langa
+langhe,004145,S0085,Murazzano; Alta Langa
+langhe,004147,S0085,Narzole; Bassa Langa
+langhe,004148,S0085,Neive; Bassa Langa
+langhe,004149,S0085,Neviglie; Bassa Langa
+langhe,004150,S0085,Niella Belbo; Alta Langa
+langhe,004151,S0085,Niella Tanaro; Langa Monregalese
+langhe,004152,S0085,Novello; Bassa Langa
+langhe,004160,S0085,Paroldo; Alta Langa
+langhe,004161,S0085,Perletto; Alta Langa
+langhe,004164,S0085,Pezzolo Valle Uzzone; Alta Langa
+langhe,004169,S0085,Piozzo; Bassa Langa
+langhe,004178,S0085,Prunetto; Alta Langa
+langhe,004184,S0085,Roascio; Langa Monregalese
+langhe,004188,S0085,Rocca Ciglie; Langa Monregalese
+langhe,004193,S0085,Rocchetta Belbo; Alta Langa
+langhe,004194,S0085,Roddi; Bassa Langa
+langhe,004195,S0085,Roddino; Alta Langa
+langhe,004196,S0085,Rodello; Bassa Langa
+langhe,004199,S0085,Sale delle Langhe; Alta Langa
+langhe,004200,S0085,Sale San Giovanni; Alta Langa
+langhe,004201,S0085,Saliceto; Alta Langa
+langhe,004206,S0085,San Benedetto Belbo; Alta Langa
+langhe,004213,S0085,Santo Stefano Belbo; Alta Langa
+langhe,004218,S0085,Serralunga d'Alba; Bassa Langa
+langhe,004219,S0085,Serravalle Langhe; Alta Langa
+langhe,004220,S0085,Sinio; Bassa Langa
+langhe,004221,S0085,Somano; Alta Langa
+langhe,004226,S0085,Torre Bormida; Alta Langa
+langhe,004229,S0085,Torresina; Alta Langa
+langhe,004230,S0085,Treiso; Bassa Langa
+langhe,004231,S0085,Trezzo Tinella; Alta Langa
+langhe,004238,S0085,Verduno; Bassa Langa
+langhe,004242,S0085,Vicoforte; Langa Monregalese
+langhe,005011,S0085,Bubbio; Langa Astigiana
+langhe,005017,S0085,Canelli; Langa Astigiana
+langhe,005021,S0085,Cassinasco; Langa Astigiana
+langhe,005022,S0085,Castagnole delle Lanze; Langa Astigiana
+langhe,005024,S0085,Castel Boglione; Langa Astigiana
+langhe,005032,S0085,Castel Rocchero; Langa Astigiana
+langhe,005037,S0085,Cessole; Langa Astigiana
+langhe,005041,S0085,Coazzolo; Bassa Langa
+langhe,005050,S0085,Costigliole d'Asti; Langa Astigiana
+langhe,005060,S0085,Loazzolo; Langa Astigiana
+langhe,005064,S0085,Mombaldone; Langa Astigiana
+langhe,005068,S0085,Monastero Bormida; Langa Astigiana
+langhe,005072,S0085,Montabone; Langa Astigiana
+langhe,005081,S0085,Olmo Gentile; Langa Astigiana
+langhe,005094,S0085,Roccaverano; Langa Astigiana
+langhe,005095,S0085,Rocchetta Palafea; Langa Astigiana
+langhe,005098,S0085,San Giorgio Scarampi; Alta Langa
+langhe,005104,S0085,Serole; Alta Langa
+langhe,005105,S0085,Sessame; Langa Astigiana
+langhe,005113,S0085,Vesime; Langa Astigiana
+langhe,006017,S0085,Bistagno; Langa Astigiana
 lomellina,018001,S0080,
 lomellina,018003,S0080,
 lomellina,018022,S0080,

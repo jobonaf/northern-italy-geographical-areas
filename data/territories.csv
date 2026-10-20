@@ -27,11 +27,11 @@ frignano,Frignano,defined,Perimetro operativo adottato e popolato con 10 comuni 
 friuli,Friuli,pending,Delimitazione linguistica L.R. 29/2007: decidere se coincide con il Friuli del repertorio.
 giudicarie,Giudicarie,defined,Perimetro della Comunita di valle adottato e popolato con 25 comuni; codici ISTAT vigenti verificati al 2026.
 gran-paradiso,Gran Paradiso,defined,Perimetro operativo adottato e popolato con 13 comuni; codici ISTAT vigenti verificati al 2026.
-langhe,Langhe,pending,La delimitazione UNESCO copre solo componenti selezionate delle Langhe: cercare una fonte per l'intero territorio storico-geografico.
+langhe,Langhe,defined,"Perimetro comunale convenzionale inclusivo di 105 comuni: Bassa Langa, Alta Langa, Langa Astigiana e Langa Monregalese; Roero escluso."
 lessinia,Lessinia,pending,
 lomellina,Lomellina,defined,Perimetro operativo SNAI adottato e popolato con 43 comuni; codici ISTAT vigenti verificati al 2026.
 marca-trevigiana,Marca Trevigiana,defined,Perimetro provinciale operativo adottato e popolato con 94 comuni; codici ISTAT vigenti verificati al 2026.
-monferrato,Monferrato,pending,Il sito UNESCO fornisce perimetri GIS ufficiali ma parziali rispetto al Monferrato storico: scegliere l'accezione.
+alto-monferrato,Alto Monferrato,defined,Perimetro regionale dell'Area Alto Monferrato: 41 comuni della provincia di Alessandria; delimitazione operativa distinta dal Monferrato storico complessivo.
 oltrepo-pavese,Oltrepò Pavese,defined,Perimetro operativo SNAI adottato e popolato con 18 comuni; codici ISTAT vigenti verificati al 2026.
 polesine,Polesine,defined,Perimetro adottato: 50 comuni; codici ricavati dallo shapefile ISTAT 2026-01-01.
 riviera-del-brenta,Riviera del Brenta,defined,Perimetro operativo adottato e popolato con 9 comuni; codici ISTAT vigenti verificati al 2026.
