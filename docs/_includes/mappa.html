@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+#map{height:60vh;min-height:380px;border:1px solid #cfd8de;border-radius:6px;background:#dfe7ec}
+#legend{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:.6rem 0;font-size:.9rem}
+#legend label{display:flex;align-items:center;gap:.4rem;cursor:pointer}
+#legend i{width:14px;height:14px;border-radius:3px;display:inline-block}
+#notice{margin:.6rem 0;padding:.6rem .9rem;background:#f4efe3;border-left:4px solid #c98a1b}
+</style>
+<div id="map" role="application" aria-label="Mappa interattiva dei territori"></div>
+<div id="legend"></div>
+<div id="notice" hidden>I confini non sono ancora pubblicati: arriveranno con la fase 4. Intanto puoi aiutare a trovare le fonti (vedi “Contribuire”).</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const DATA={{ site.data.territori | jsonify }};
+const STATUS={defined:{label:"Definito dai comuni",color:"#1b7f79"},unresolved:{label:"Da risolvere",color:"#8a6fb0"}};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const get=(p,...k)=>{for(const x of k){if(p[x]!=null&&p[x]!=="")return p[x]}return ""};
+const st=f=>{const s=get(f.properties||{},"status","stato");return STATUS[s]?s:"unresolved"};
+const map=L.map("map",{scrollWheelZoom:false}).fitBounds([[43.7,6.6],[47.1,13.9]]);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:"© OpenStreetMap, © CARTO"}).addTo(map);
+const active={defined:true,unresolved:true};let layer=null;
+const feats=(DATA&&DATA.features)||[];
+function popup(f){const p=f.properties,s=STATUS[st(f)],src=get(p,"source","fonte");
+ const link=/^https?:\/\//.test(src)?`<a href="${esc(src)}" target="_blank" rel="noopener">fonte</a>`:esc(src);
+ return `<strong>${esc(get(p,"name","nome"))}</strong><br>${esc(get(p,"type","tipologia"))} · ${esc(get(p,"macroarea"))}<br><span style="color:${s.color}">●</span> ${s.label}`+(src?`<br>${link}`:"")+(get(p,"n_comuni")?`<br><small>${esc(get(p,"n_comuni"))} comuni</small>`:"")}
+function draw(){if(layer)layer.remove();
+ layer=L.geoJSON({type:"FeatureCollection",features:feats},{filter:f=>f.geometry&&active[st(f)],
+  style:f=>({color:STATUS[st(f)].color,weight:1.4,fillColor:STATUS[st(f)].color,fillOpacity:.38}),
+  onEachFeature:(f,l)=>{l.bindPopup(popup(f));l.on("mouseover",()=>l.setStyle({fillOpacity:.65}));l.on("mouseout",()=>l.setStyle({fillOpacity:.38}))}}).addTo(map)}
+const lg=document.getElementById("legend");
+lg.innerHTML=Object.entries(STATUS).map(([k,v])=>`<label><input type="checkbox" data-k="${k}" checked><i style="background:${v.color}"></i>${v.label}</label>`).join("");
+lg.addEventListener("change",e=>{active[e.target.dataset.k]=e.target.checked;draw()});
+if(feats.some(f=>f.geometry)){draw();map.fitBounds(layer.getBounds(),{padding:[30,30]})}else{document.getElementById("notice").hidden=false}
+</script>
