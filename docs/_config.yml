@@ -1,0 +1,8 @@
+title: Territori del Nord Italia
+description: Anagrafica aperta di 70 territori geografici, con la provenienza di ogni confine.
+lang: it
+theme: minima
+repo_url: https://github.com/jobonaf/northern-italy-geographical-areas
+header_pages:
+  - metodo.md
+  - contribuire.md

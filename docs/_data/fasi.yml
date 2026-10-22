@@ -1,0 +1,13 @@
+# Aggiorna solo "stato": completata, in corso, da iniziare
+- titolo: Anagrafica
+  stato: completata
+  testo: Consolidamento dei 70 territori senza duplicazioni, con id stabili, nomi canonici, tipologie, macroaree, schema dei dati e criteri di accettazione.
+- titolo: Ricerca e catalogazione delle fonti
+  stato: in corso
+  testo: Per ogni territorio cerchiamo chi lo definisce e lo registriamo, macroarea per macroarea, a partire dal Trentino-Alto Adige.
+- titolo: Popolamento dai comuni
+  stato: da iniziare
+  testo: Dove una fonte elenca i comuni, li associamo al territorio tramite codice ISTAT.
+- titolo: Poligoni costruiti ad hoc
+  stato: da iniziare
+  testo: Solo per i territori che restano irrisolti, con metodo dichiarato.
