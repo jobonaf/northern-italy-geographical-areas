@@ -1,34 +1,48 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
 #map{height:60vh;min-height:380px;border:1px solid #cfd8de;border-radius:6px;background:#dfe7ec}
-#legend{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin:.6rem 0;font-size:.9rem}
-#legend label{display:flex;align-items:center;gap:.4rem;cursor:pointer}
-#legend i{width:14px;height:14px;border-radius:3px;display:inline-block}
-#notice{margin:.6rem 0;padding:.6rem .9rem;background:#f4efe3;border-left:4px solid #c98a1b}
+.map-summary{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin:.7rem 0;font-size:.95rem}
+.map-summary span{display:inline-flex;align-items:center;gap:.4rem}
+.map-summary i{width:14px;height:14px;border-radius:3px;background:#1b7f79;display:inline-block}
 </style>
-<div id="map" role="application" aria-label="Mappa interattiva dei territori"></div>
-<div id="legend"></div>
-<div id="notice" hidden>I confini non sono ancora pubblicati: arriveranno con la fase 4. Intanto puoi aiutare a trovare le fonti (vedi “Contribuire”).</div>
+<div id="map" role="application" aria-label="Mappa interattiva dei territori con confine definito"></div>
+<div class="map-summary" aria-label="Sintesi della mappa">
+  <span><i></i><strong id="mapped-count">0</strong> territori con confine definito</span>
+  <span><strong id="pending-count">0</strong> territori ancora da definire, elencati nella tabella</span>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-const DATA={{ site.data.territori | jsonify }};
-const STATUS={defined:{label:"Definito dai comuni",color:"#1b7f79"},unresolved:{label:"Da risolvere",color:"#8a6fb0"}};
-const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const get=(p,...k)=>{for(const x of k){if(p[x]!=null&&p[x]!=="")return p[x]}return ""};
-const st=f=>{const s=get(f.properties||{},"status","stato");return STATUS[s]?s:"unresolved"};
-const map=L.map("map",{scrollWheelZoom:false}).fitBounds([[43.7,6.6],[47.1,13.9]]);
-L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:"© OpenStreetMap, © CARTO"}).addTo(map);
-const active={defined:true,unresolved:true};let layer=null;
-const feats=(DATA&&DATA.features)||[];
-function popup(f){const p=f.properties,s=STATUS[st(f)],src=get(p,"source","fonte");
- const link=/^https?:\/\//.test(src)?`<a href="${esc(src)}" target="_blank" rel="noopener">fonte</a>`:esc(src);
- return `<strong>${esc(get(p,"name","nome"))}</strong><br>${esc(get(p,"type","tipologia"))} · ${esc(get(p,"macroarea"))}<br><span style="color:${s.color}">●</span> ${s.label}`+(src?`<br>${link}`:"")+(get(p,"n_comuni")?`<br><small>${esc(get(p,"n_comuni"))} comuni</small>`:"")}
-function draw(){if(layer)layer.remove();
- layer=L.geoJSON({type:"FeatureCollection",features:feats},{filter:f=>f.geometry&&active[st(f)],
-  style:f=>({color:STATUS[st(f)].color,weight:1.4,fillColor:STATUS[st(f)].color,fillOpacity:.38}),
-  onEachFeature:(f,l)=>{l.bindPopup(popup(f));l.on("mouseover",()=>l.setStyle({fillOpacity:.65}));l.on("mouseout",()=>l.setStyle({fillOpacity:.38}))}}).addTo(map)}
-const lg=document.getElementById("legend");
-lg.innerHTML=Object.entries(STATUS).map(([k,v])=>`<label><input type="checkbox" data-k="${k}" checked><i style="background:${v.color}"></i>${v.label}</label>`).join("");
-lg.addEventListener("change",e=>{active[e.target.dataset.k]=e.target.checked;draw()});
-if(feats.some(f=>f.geometry)){draw();map.fitBounds(layer.getBounds(),{padding:[30,30]})}else{document.getElementById("notice").hidden=false}
+(() => {
+  const data = {{ site.data.territori | jsonify }};
+  const features = (data && data.features) || [];
+  const mapped = features.filter(f => f.geometry);
+  const pending = features.filter(f => !f.geometry);
+  const esc = value => String(value == null ? "" : value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const issueUrl = p => {
+    const title = `Segnalazione per: ${p.name || p.territory_id || "territorio"}`;
+    const body = `## Tipo di segnalazione\n- [ ] Correzione dei comuni\n- [ ] Nuova fonte\n- [ ] Correzione delle note\n- [ ] Altro\n\n## Descrizione\n\n## Fonte o riferimento\n\n## Comuni interessati\n`;
+    return `{{ site.repo_url }}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  };
+  document.getElementById("mapped-count").textContent = mapped.length;
+  document.getElementById("pending-count").textContent = pending.length;
+  const map = L.map("map", {scrollWheelZoom:false}).fitBounds([[43.7,6.6],[47.1,13.9]]);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom:19,
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  if (!mapped.length) return;
+  const layer = L.geoJSON({type:"FeatureCollection",features:mapped},{
+    style:{color:"#1b7f79",weight:1.4,fillColor:"#1b7f79",fillOpacity:.38},
+    onEachFeature:(f,l) => {
+      const p=f.properties || {};
+      const src=p.source || p.fonte || "";
+      const sourceHtml=/^https?:\/\//.test(src) ? `<a href="${esc(src)}" target="_blank" rel="noopener">Fonte</a>` : esc(src);
+      const details=[p.n_comuni ? `${esc(p.n_comuni)} comuni` : "", sourceHtml, p.notes ? esc(p.notes) : ""].filter(Boolean).join("<br>");
+      l.bindPopup(`<strong>${esc(p.name || p.territory_id)}</strong>${details ? `<br>${details}` : ""}<br><a href="${issueUrl(p)}" target="_blank" rel="noopener">Segnala una modifica</a>`);
+      l.on("mouseover",()=>l.setStyle({fillOpacity:.65}));
+      l.on("mouseout",()=>l.setStyle({fillOpacity:.38}));
+    }
+  }).addTo(map);
+  map.fitBounds(layer.getBounds(),{padding:[30,30]});
+})();
 </script>

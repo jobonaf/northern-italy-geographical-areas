@@ -4,23 +4,25 @@ title: Contribuire
 permalink: /contribuire/
 ---
 
-Serve soprattutto una cosa: una fonte che dica quali comuni compongono un territorio.
+Le segnalazioni sono utili sia per i territori ancora da definire sia per correggere o documentare meglio quelli già definiti.
 
-1. Scegli un territorio dall’elenco qui sotto.
-2. Trova un documento che lo definisce (un atto, un sito istituzionale, una pubblicazione).
-3. Apri una segnalazione con il link e, se la fonte li elenca, i comuni con codice ISTAT.
+## Che cosa segnalare
 
-Se la fonte non elenca i comuni, il territorio resta da risolvere: non li assegniamo per analogia.
+- una fonte istituzionale, normativa o bibliografica;
+- una correzione dell’elenco dei comuni;
+- una diversa delimitazione documentata;
+- una correzione o integrazione delle note;
+- un nuovo territorio non ancora censito.
 
-## Territori ancora da risolvere
+Dalla [tabella completa]({{ '/' | relative_url }}#tabella-di-sintesi) usa **Segnala modifica** nella riga del territorio: si aprirà una issue già intitolata e predisposta. Per un territorio nuovo usa invece il collegamento generale in fondo alla pagina.
 
-{% assign aperti = site.data.territori.features | where_exp: "f", "f.properties.status != 'defined'" %}
-{% if aperti.size == 0 %}
-L’elenco compare quando i dati sono pubblicati.
-{% else %}
-{% for f in aperti %}
-- [{{ f.properties.name }}]({{ site.repo_url }}/issues/new?title={{ 'Fonte per: ' | append: f.properties.name | url_encode }})
-{% endfor %}
-{% endif %}
+Nella segnalazione indica, per quanto possibile:
 
-[Apri una segnalazione]({{ site.repo_url }}/issues/new) · [Vai al repository]({{ site.repo_url }})
+1. il tipo di modifica proposta;
+2. una descrizione sintetica;
+3. il collegamento o riferimento completo della fonte;
+4. i comuni interessati, preferibilmente con codice ISTAT.
+
+Una fonte che descrive il territorio senza elencarne i comuni è comunque utile, ma non basta da sola per costruire un confine comunale. I comuni non vengono assegnati soltanto per analogia geografica.
+
+[Apri una segnalazione per un nuovo territorio]({{ site.repo_url }}/issues/new?title={{ 'Proposta di un nuovo territorio' | url_encode }}) · [Vai al repository]({{ site.repo_url }})

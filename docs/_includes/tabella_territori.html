@@ -1,0 +1,53 @@
+<style>
+.territory-tools{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.territory-tools input,.territory-tools select{padding:.45rem .55rem;border:1px solid #bbb;border-radius:4px;font:inherit}
+.territory-tools input{flex:1 1 18rem}
+.territory-table-wrap{overflow-x:auto}
+#territory-table{width:100%;border-collapse:collapse;font-size:.92rem}
+#territory-table th,#territory-table td{padding:.55rem;border-bottom:1px solid #ddd;text-align:left;vertical-align:top}
+#territory-table th{background:#f3f5f6;white-space:nowrap}
+.status-defined{color:#176b66;font-weight:600}.status-pending{color:#765a99;font-weight:600}
+#territory-empty{display:none;padding:1rem;background:#f5f5f5}
+</style>
+<div class="territory-tools">
+  <input id="territory-search" type="search" placeholder="Cerca territorio, nota o fonte" aria-label="Cerca nella tabella">
+  <select id="territory-status" aria-label="Filtra per stato">
+    <option value="all">Tutti i territori</option>
+    <option value="defined">Con confine definito</option>
+    <option value="pending">Da definire</option>
+  </select>
+</div>
+<div class="territory-table-wrap">
+<table id="territory-table">
+  <thead><tr><th>Territorio</th><th>Stato</th><th>Comuni</th><th>Note</th><th>Fonte</th><th>Segnalazioni</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+<p id="territory-empty">Nessun territorio corrisponde ai filtri.</p>
+<script>
+(() => {
+  const features = ({{ site.data.territori | jsonify }}.features || []).slice().sort((a,b) => (a.properties.name || "").localeCompare(b.properties.name || "", "it"));
+  const tbody=document.querySelector("#territory-table tbody");
+  const search=document.getElementById("territory-search");
+  const status=document.getElementById("territory-status");
+  const esc=value=>String(value==null?"":value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const issueUrl=p=>{
+    const title=`Segnalazione per: ${p.name || p.territory_id || "territorio"}`;
+    const body=`## Tipo di segnalazione\n- [ ] Correzione dei comuni\n- [ ] Nuova fonte\n- [ ] Correzione delle note\n- [ ] Altro\n\n## Descrizione\n\n## Fonte o riferimento\n\n## Comuni interessati\n`;
+    return `{{ site.repo_url }}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  };
+  tbody.innerHTML=features.map(f=>{
+    const p=f.properties||{}; const defined=p.status==="defined";
+    const source=p.source||p.fonte||"";
+    const sourceHtml=/^https?:\/\//.test(source)?`<a href="${esc(source)}" target="_blank" rel="noopener">Apri fonte</a>`:(esc(source)||"—");
+    const haystack=[p.name,p.notes,source,p.territory_id].join(" ").toLocaleLowerCase("it");
+    return `<tr data-status="${defined?"defined":"pending"}" data-search="${esc(haystack)}"><td><strong>${esc(p.name||p.territory_id)}</strong></td><td class="status-${defined?"defined":"pending"}">${defined?"Definito":"Da definire"}</td><td>${defined?esc(p.n_comuni||"—"):"—"}</td><td>${esc(p.notes)||"—"}</td><td>${sourceHtml}</td><td><a href="${issueUrl(p)}" target="_blank" rel="noopener">Segnala modifica</a></td></tr>`;
+  }).join("");
+  const apply=()=>{
+    const q=search.value.trim().toLocaleLowerCase("it"); let shown=0;
+    tbody.querySelectorAll("tr").forEach(row=>{const ok=(!q||row.dataset.search.includes(q))&&(status.value==="all"||row.dataset.status===status.value);row.hidden=!ok;if(ok)shown++;});
+    document.getElementById("territory-empty").style.display=shown?"none":"block";
+  };
+  search.addEventListener("input",apply); status.addEventListener("change",apply);
+})();
+</script>
